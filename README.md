@@ -4,9 +4,9 @@
       <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
     </td>
     <td valign="middle" align="right" style="width:32%;border:0;padding:0;">
-      <img src="./Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="52" style="vertical-align:middle;margin-left:12px;">
-      <img src="./kmitllogo.png" alt="KMITL" height="52" style="vertical-align:middle;margin-left:12px;">
-      <img src="./logoppk.png" alt="PPK" height="52" style="vertical-align:middle;margin-left:12px;">
+      <img src="./assets/Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="52" style="vertical-align:middle;margin-left:12px;">
+      <img src="./assets/kmitllogo.png" alt="KMITL" height="52" style="vertical-align:middle;margin-left:12px;">
+      <img src="./assets/logoppk.png" alt="PPK" height="52" style="vertical-align:middle;margin-left:12px;">
     </td>
   </tr>
 </table>
