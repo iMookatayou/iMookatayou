@@ -13,7 +13,7 @@
         <img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34">
       </p>
       <p style="margin:6px 0 0 0;">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,reactnative,flutter,tailwind,vite&perline=14" height="34">
+        <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34">
       </p>
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34">
