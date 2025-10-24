@@ -1,0 +1,44 @@
+name: Generate GitHub Metrics
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 3 * * *"  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  
+    steps:
+      - name: Check token (should show your login)
+        run: |
+          curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
+        shell: bash
+
+      - name: Full metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: iMookatayou
+          token: ${{ secrets.METRICS_TOKEN }}          
+          committer_token: ${{ secrets.GITHUB_TOKEN }} 
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Bangkok
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Isometric contributions (3D)
+        uses: lowlighter/metrics@latest
+        with:
+          user: iMookatayou
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics-isometric.svg
+          base: ""
+          plugin_isometric: yes
+          plugin_isometric_duration: full-year
