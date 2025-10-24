@@ -14,7 +14,6 @@
       </p>
      <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34">
-        <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="28">
       </p>
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34">
