@@ -1,104 +1,117 @@
-<!-- ============ CLEAN PROFESSIONAL — EMERALD x BLACK (v3, fixes) ============ -->
+<!-- ========== EMERALD x BLACK • COMPACT PRO (v4) ========== -->
 
 <table width="100%">
   <tr>
     <td align="left" valign="top">
+      <h1>Techin • iMookatayou</h1>
+      <sub>Fullstack Developer — building hospital systems and HomeService platforms with a clean, production-ready approach.</sub>
+    </td>
+    <td align="right" valign="top" width="280">
+      <img src="assets/makima-chainsaw-man.gif" width="260" alt="profile gif" />
+    </td>
+  </tr>
+</table>
 
-# Techin • iMookatayou
-<sub>Fullstack Developer — building hospital systems and HomeService platforms with a clean, production-ready approach.</sub>
+<br/>
+
+<table width="100%">
+  <tr>
+    <!-- LEFT: profile summary / metrics -->
+    <td width="52%" valign="top">
+
+**Profile**
+- Joined GitHub • Shipping real-world systems
+- Focus: clarity, reliability, automation
+
+**Highlights**
+- Hospital referral/queue systems (Next.js + Laravel)
+- HomeService ecosystem (Go + Flutter + PostgreSQL)
+
+**GitHub metrics (to be generated)**
+<p><img src="./github-metrics.svg" alt="metrics (to be generated)" /></p>
 
   </td>
-  <td align="right" valign="top" width="280">
-    <img src="assets/makima-chainsaw-man.gif" width="260" alt="profile gif" />
+
+  <!-- RIGHT: anime / media style zone -->
+  <td width="48%" valign="top">
+
+**Anime / Media**
+- Favorites & characters (via Anilist plugin)
+- Music/recents (optional)
+
+<p>
+  <!-- placeholders (will be replaced by metrics outputs later) -->
+  <img src="https://gist.githubusercontent.com/lowlighter/3c6eaedf50273adfb7a510822672f570/raw/placeholder.svg" width="100%" alt="media placeholder" />
+</p>
+
   </td>
   </tr>
 </table>
 
 <br/>
 
-<h3>About</h3>
-<sub>
-I ship pragmatic software with clarity, reliability, and operational simplicity.
-Recent work spans hospital referral/queue systems (Next.js + Laravel) and a HomeService ecosystem (Go + Flutter + PostgreSQL)
-with clean architecture, strong database design, and sensible automation.
-</sub>
+### Tech Stack
 
-<br/>
-
-<h3>Tech Stack</h3>
-
-**Languages**  
+**Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=go,ts,js,python,php,dart&perline=10" height="34" />
+  <img src="https://skillicons.dev/icons?i=go,ts,js,python,php,dart&perline=12" height="34" />
 </p>
 
-**Frameworks / Web**  
+**Frameworks / Web**
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,laravel&perline=10" height="34" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,laravel&perline=12" height="34" />
 </p>
 
-**Mobile**  
+**Mobile**
 <p>
-  <img src="https://skillicons.dev/icons?i=flutter&perline=10" height="34" />
+  <img src="https://skillicons.dev/icons?i=flutter&perline=12" height="34" />
 </p>
 
-**Databases**  
+**Databases**
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=10" height="34" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=12" height="34" />
 </p>
 
-**Cloud / DevOps / OS**  
+**Cloud / DevOps / OS**
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,jenkins,githubactions,nginx,aws,firebase,linux,ubuntu,arch&perline=10" height="34" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,firebase,jenkins,githubactions,nginx,linux,ubuntu,arch&perline=12" height="34" />
 </p>
 
-**Tools**  
+**Tools**
 <p>
-  <img src="https://skillicons.dev/icons?i=postman,git,github,vscode&perline=10" height="34" />
-  <!-- n8n ไม่มีใน skillicons: ใช้ badge โทน emerald -->
+  <img src="https://skillicons.dev/icons?i=postman,git,github,vscode&perline=12" height="34" />
+  <!-- n8n has no skillicon → emerald badge -->
   <img alt="n8n" src="https://img.shields.io/badge/n8n-Automations-0CE8A7?labelColor=000" height="22" style="vertical-align:middle;margin-left:6px;" />
 </p>
 
-<sub>Focus areas: Go (pgx, Chi), Laravel 12 (PHP 8.3), Next.js/React 19, Flutter (Riverpod/GoRouter), PostgreSQL/MySQL/MongoDB, Docker, GitHub Actions, AWS, Firebase, n8n.</sub>
+<sub>Focus: Go (pgx, Chi), Laravel 12 (PHP 8.3), Next.js/React 19, Flutter (Riverpod/GoRouter), PostgreSQL/MySQL/MongoDB, Docker, GitHub Actions, AWS, Firebase, n8n.</sub>
 
 <br/>
 
-<h3>Featured Projects</h3>
+### Featured Projects
 
 - **PPK Referral/Queue System** — *Next.js + Laravel + MySQL*  
-  Government-style UI, clear triage/referral logic, printable forms, audit logging.
+  Government-style UI, clean triage/referral logic, printable forms, audit logs.
 
 - **HomeService** — *Go (Chi + pgx) + Flutter + PostgreSQL*  
-  Modular services (auth, notes, purchases, uploads, chores, weather) with strong DB types and migrations.
+  Modular services (auth, notes, purchases, uploads, chores, weather) with strong DB types & migrations.
 
 - **Monitoring Starter** — *Go + PostgreSQL*  
   Structured modules, logging, and baseline observability for small teams.
 
 <br/>
 
-<h3>GitHub Metrics</h3>
-
-<p align="center">
-  <!-- Will be generated by lowlighter/metrics later -->
-  <img src="./github-metrics.svg" alt="GitHub metrics (to be generated)" />
-</p>
-<p align="center">
-  <sub>Generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> (emerald theme).</sub>
-</p>
-
-<br/>
-
-<h3>Anime Corner (optional)</h3>
+### Anime Corner (optional)
 <details>
   <summary><sub>Open anime profile</sub></summary>
-  <sub>This section will show favorites & characters via the Anilist plugin from <code>lowlighter/metrics</code>.</sub>
+  <sub>This will render favorites & characters through the Anilist plugin of <code>lowlighter/metrics</code>.</sub>
 </details>
 
 <br/>
 
-<h3>Contact</h3>
+### Contact
 <sub>
 Website: <a href="https://your-site.example">your-site.example</a> • X/Twitter: @yourhandle • Email: you@example.com
 </sub>
 
-<!-- ================= END ================= -->
+<!-- ========== END ========== -->
