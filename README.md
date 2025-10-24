@@ -69,7 +69,6 @@
 <div align="center">
   <img src="./github-metrics.svg" width="75%">
 </div>
----
 
 ### Education & Career Timeline
 <table align="center">
