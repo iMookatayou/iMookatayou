@@ -12,7 +12,7 @@
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34">
       </p>
-     <p style="margin:6px 0 0 0;">
+      <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34">
       </p>
       <p style="margin:6px 0 0 0;">
@@ -24,8 +24,12 @@
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34">
       </p>
-      <p>
-        <img src="(terminal_icon)"> <img src="(system_icon)"> <img src="(build_icon)"> <img src="(web_icon)"> <img src="(backend_icon)">
+      <p style="margin:4px 0 0 0;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="34" title="Terminal">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="34" title="System">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="34" title="Build Control">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="34" title="Web Fundamentals">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="34" title="Backend System">
       </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
