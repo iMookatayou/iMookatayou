@@ -73,7 +73,7 @@
 ### Education & Career Timeline
 <table align="center">
   <tr>
-    <th width="15%">Year</th>
+    <th width="10%">Year</th>
     <th width="20%">Institution</th>
     <th width="25%">Role / Status</th>
     <th width="40%">Description</th>
