@@ -4,9 +4,7 @@
 
 <p>
   <img src="assets/makima-chainsaw-man.gif" align="right" width="260" />
-  <h1>Techin • iMookatayou</h1>
-  <sub>Full-Stack Developer — hospital systems & HomeService • production-ready software</sub><br/>
-  <sub>Go • PostgreSQL • Laravel • Next.js • Flutter • Docker • GitHub Actions</sub>
+  <h1>Hi there I'm a Fullstack Developer</h1>
 </p>
 
 <!-- Header Summary (no boxes, free-flow like example) -->
