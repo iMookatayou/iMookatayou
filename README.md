@@ -15,13 +15,6 @@
       <p style="margin:6px 0 6px 0;">
         <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34">
       </p>
-      <sub>
-        <code>Go (Chi, pgx, Zap)</code> · <code>PostgreSQL</code> · <code>Redis</code> ·
-        <code>Laravel 12 (PHP 8.3)</code> · <code>Next.js 15 / React 19</code> ·
-        <code>Flutter (Riverpod, GoRouter)</code> · <code>Tailwind</code> ·
-        <code>JWT / RBAC</code> · <code>Nginx</code> · <code>Docker</code> ·
-        <code>GitHub Actions</code> · <code>n8n automations</code>
-      </sub>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
       <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
