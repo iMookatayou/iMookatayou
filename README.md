@@ -91,12 +91,12 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
     <!-- ===== RIGHT (Sidebar) ===== -->
     <td width="34%" valign="top">
 
-<!-- รูปมาคิมะชิดขวาบน + เว้นระยะเท่า ๆ กัน -->
+<!-- มาคิมะขวาบน + เว้นระยะเท่า ๆ กัน -->
 <p style="margin:0 0 12px 0; text-align:right;">
   <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" />
 </p>
 
-<!-- Most Used Languages: ใต้รูป + สไตล์ B (สีแน่นจัดเต็ม) -->
+<!-- Most Used Languages: ใต้รูป (Style B สีแน่น) -->
 <sub><b>Most Used Languages</b></sub>
 <p style="margin:8px 0 16px 0;">
   <!-- ใช้ mirror ที่นิ่งกว่าเพื่อลด error -->
@@ -131,8 +131,7 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
 <br/>
 
 <!-- Notes:
-- Two-column, no borders. ใช้พื้นที่ซ้าย-ขวาเต็ม
-- Tech Stack = T1 ไอคอนใหญ่จริง (height=44) 2 แถว
-- Most Used Languages = Style B ใต้รูปมาคิมะ
-- Metrics จะทำงานหลังตั้ง workflow lowlighter/metrics; ถ้าไม่ตั้ง หน้าไม่พัง
+- รูปมาคิมะอยู่ขวาบนจริง และ Most Used อยู่ใต้รูป
+- Tech Stack ใหญ่ขึ้น (icons 44px) ครอบ 2 แถว
+- Metrics จะแสดงเมื่อมีไฟล์ ./github-metrics.svg จาก lowlighter/metrics
 -->
