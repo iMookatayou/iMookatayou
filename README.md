@@ -1,12 +1,12 @@
-<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+<table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="border-collapse:collapse;border:0;">
   <tr>
-    <td valign="middle" style="width:68%;">
+    <td valign="middle" style="width:68%;border:0;padding:0;">
       <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
     </td>
-    <td valign="middle" align="right" style="width:32%;">
-      <img src="./assets/Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="36" style="vertical-align:middle; margin-left:10px;">
-      <img src="./assets/kmitllogo.png" alt="KMITL" height="36" style="vertical-align:middle; margin-left:10px;">
-      <img src="./assets/logoppk.png" alt="PPK" height="36" style="vertical-align:middle; margin-left:10px;">
+    <td valign="middle" align="right" style="width:32%;border:0;padding:0;">
+      <img src="./Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="52" style="vertical-align:middle;margin-left:12px;">
+      <img src="./kmitllogo.png" alt="KMITL" height="52" style="vertical-align:middle;margin-left:12px;">
+      <img src="./logoppk.png" alt="PPK" height="52" style="vertical-align:middle;margin-left:12px;">
     </td>
   </tr>
 </table>
@@ -17,9 +17,9 @@
 
 <div style="height:12px;"></div>
 
-<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+<table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="border-collapse:collapse;border:0;">
   <tr>
-    <td valign="top" width="68%">
+    <td valign="top" style="width:68%;border:0;padding:0;">
       <h3>Tech Stack</h3>
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34">
@@ -43,8 +43,8 @@
         <img src="https://skillicons.dev/icons?i=vim" height="34">
       </p>
     </td>
-    <td valign="top" align="right" width="32%" style="padding-left:16px;">
-      <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
+    <td valign="top" align="right" style="width:32%;border:0;padding-left:16px;">
+      <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px;max-width:100%;">
       <div style="height:10px;"></div>
       <div style="margin-top:6px;">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true">
@@ -52,6 +52,16 @@
     </td>
   </tr>
 </table>
+
+<div style="height:16px;"></div>
+
+<h3>Metrics</h3>
+<p>
+  <img src="./metrics-isometric.svg" style="max-width:100%;border-radius:8px;">
+</p>
+<p>
+  <img src="./github-metrics.svg" style="max-width:100%;border-radius:8px;">
+</p>
 
 <div style="height:16px;"></div>
 
