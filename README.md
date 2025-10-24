@@ -2,7 +2,7 @@
 
 <!-- Header -->
 
-<h2><u>Techin • iMookatayou — Full-Stack Developer</u></h2>
+<h2><u>Hi There I'm a Full-Stack Developer</u></h2>
 <img src="assets/makima-chainsaw-man.gif" align="right" width="260" style="float:right; margin: 12px 0 0 20px;" />
 
 <!-- Header Summary (no boxes, free-flow like example) -->
