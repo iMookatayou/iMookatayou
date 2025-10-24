@@ -55,7 +55,6 @@
 
 <div style="height:16px;"></div>
 
-<h3>Metrics</h3>
 <p>
   <img src="./metrics-isometric.svg" style="max-width:100%;border-radius:8px;">
 </p>
