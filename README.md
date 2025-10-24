@@ -66,7 +66,7 @@
 ---
 
 ### Metrics
-<img src="./github-metrics.svg" width="50%">
+<img src="./github-metrics.svg" width="70%">
 
 ---
 
