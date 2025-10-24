@@ -1,19 +1,13 @@
 <!-- ====== EMERALD × BLACK • Compact Pro README (v6) ====== -->
 
-<!-- Header: Left intro / Right GIF (Makima) -->
+<!-- Header -->
 
-<table width="100%">
-  <tr>
-    <td align="left" valign="top">
-      <h1 style="margin:0">Techin • iMookatayou</h1>
-      <sub>Full‑Stack Developer · hospital systems & HomeService · clean, production‑ready</sub><br/>
-      <sub>Now: Go + PostgreSQL · Laravel · Next.js/React · Flutter · Docker · GitHub Actions</sub>
-    </td>
-    <td align="right" valign="top" width="260">
-      <img src="assets/makima-chainsaw-man.gif" width="240" alt="profile gif"/>
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="assets/makima-chainsaw-man.gif" align="right" width="260" />
+  <h1>Techin • iMookatayou</h1>
+  <sub>Full-Stack Developer — hospital systems & HomeService • production-ready software</sub><br/>
+  <sub>Go • PostgreSQL • Laravel • Next.js • Flutter • Docker • GitHub Actions</sub>
+</p>
 
 <!-- Header Summary (no boxes, free-flow like example) -->
 
