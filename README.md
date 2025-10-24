@@ -3,7 +3,7 @@
 <!-- Header -->
 
 <p>
-  <img src="assets/makima-chainsaw-man.gif" align="right" width="260" style="position:relative; z-index:10; margin-left:16px; margin-top:0;" />
+  <img src="assets/makima-chainsaw-man.gif" align="right" width="260" style="position:relative; z-index:10; margin-left:16px; margin-top:40px
   <h2><u>Techin • iMookatayou — Full-Stack Developer</u></h2>
   <sub>Full‑Stack Developer — hospital systems & HomeService • production‑ready software</sub><br/>
   <sub>Go • PostgreSQL • Laravel • Next.js • Flutter • Docker • GitHub Actions</sub>
