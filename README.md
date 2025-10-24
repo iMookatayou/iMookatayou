@@ -82,49 +82,6 @@
   <li><b>Monitoring Dashboard</b> – Go + PostgreSQL</li>
 </ul>
 
-<div style="height:16px;"></div>
-
-<h3>What I'm Building</h3>
-<ul>
-  <li><b>HomeService</b> — Go + pgx + Clean Architecture → modules:
-    auth, users, notes, purchases, uploads, chores, weather, contractors
-    <br/>Mobile: Flutter + Riverpod + GoRouter
-  </li>
-  <li><b>PPK Pre-Service (Hospital)</b> — Next.js + Laravel + MySQL → referral-engine, clinic-engine, printable forms</li>
-  <li><b>Per-Service Management</b> — barrier token auth, Thai ID integrations, gov-style UI</li>
-</ul>
-
-<div style="height:18px;"></div>
-
-<h3>Selected Modules (Specs)</h3>
-<ul>
-  <li><b>Notes</b> — search, pin, SQL filters, repo pattern</li>
-  <li><b>Purchases</b> — state machine <code>planned → ordered → bought → delivered</code>, itemized list</li>
-  <li><b>Uploads</b> — file service + trigger <code>files_before_write</code></li>
-  <li><b>Referral Engine</b> — UTI / Cellulitis / Animal Bite rules + clinic routing</li>
-  <li><b>Contractors</b> — geolocation + type filter + deep link maps/call</li>
-</ul>
-
-<div style="height:18px;"></div>
-
-<h3>DevOps</h3>
-<ul>
-  <li>Docker multi-stage build</li>
-  <li>CI/CD GitHub Actions</li>
-  <li>PostgreSQL + migrations guard</li>
-  <li>JWT · RBAC · logging</li>
-</ul>
-
-<div style="height:18px;"></div>
-
-<h3>Showcases</h3>
-<ul>
-  <li><b>HomeService</b> – Go backend + Flutter mobile</li>
-  <li><b>PPK Form System</b> – Next.js + Laravel</li>
-  <li><b>Surgical-OPD Registry</b> – Nuxt + MySQL</li>
-  <li><b>Monitoring Dashboard</b> – Go + PostgreSQL</li>
-</ul>
-
 <div style="height:18px;"></div>
 
 <h3>Contact</h3>
