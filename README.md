@@ -1,40 +1,38 @@
 <!-- ====== EMERALD × BLACK • Pro Dev Profile (no frames) ====== -->
 
 <h2><u>Hi There I'm a Full-Stack Developer</u></h2>
-
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
 <p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
 
 <hr/>
 
-<!-- ================= Tech Stack + Makima (RIGHT) ================= -->
+<!-- ========== Tech Stack + Makima (RIGHT) ========== -->
 <div style="display:flex; align-items:flex-start; gap:16px; flex-wrap:wrap;">
-  <!-- Tech Stack content -->
-  <div style="flex:1; min-width:280px;">
-    <h3 style="margin-top:0;">Tech Stack</h3>
+<div style="flex:1; min-width:280px;">
+<h3 style="margin-top:0;">Tech Stack</h3>
 
-    <!-- Dense & compact icons (two rows) -->
-    <p style="margin:6px 0 0 0;">
-      <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="34" />
-    </p>
-    <p style="margin:6px 0 6px 0;">
-      <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34" />
-    </p>
+<p style="margin:6px 0 0 0;">
+  <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="34" />
+</p>
+<p style="margin:6px 0 6px 0;">
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34" />
+</p>
 
-    <sub><code>Go (Chi, pgx, Zap)</code> · <code>PostgreSQL</code> · <code>Redis</code> ·
-    <code>Laravel 12 (PHP 8.3)</code> · <code>Next.js 15 / React 19</code> ·
-    <code>Flutter (Riverpod, GoRouter)</code> · <code>Tailwind</code> ·
-    <code>JWT / RBAC</code> · <code>Nginx</code> · <code>Docker</code> ·
-    <code>GitHub Actions</code> · <code>n8n automations</code></sub>
-  </div>
-
-  <!-- Makima on the RIGHT -->
-  <div style="flex:0 0 240px; text-align:right;">
-    <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" style="max-width:100%; border-radius:12px;" />
-  </div>
+<sub>
+  <code>Go (Chi, pgx, Zap)</code> · <code>PostgreSQL</code> · <code>Redis</code> ·
+  <code>Laravel 12 (PHP 8.3)</code> · <code>Next.js 15 / React 19</code> ·
+  <code>Flutter (Riverpod, GoRouter)</code> · <code>Tailwind</code> ·
+  <code>JWT / RBAC</code> · <code>Nginx</code> · <code>Docker</code> ·
+  <code>GitHub Actions</code> · <code>n8n automations</code>
+</sub>
 </div>
-<!-- =============================================================== -->
+
+<div style="flex:0 0 240px; text-align:right;">
+  <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" style="max-width:100%; border-radius:12px;" />
+</div>
+</div>
+<!-- ================================================ -->
 
 <br/>
 
@@ -42,9 +40,12 @@
 <ul>
   <li><b>HomeService</b> — Go + pgx + Clean Architecture → modules:
     <code>auth</code>, <code>users</code>, <code>notes</code>, <code>purchases</code>,
-    <code>uploads</code>, <code>chores</code>, <code>weather</code>, <code>contractors</code>; Flutter app (Riverpod + GoRouter)</li>
-  <li><b>PPK Pre-Service (Hospital)</b> — Next.js + Laravel + MySQL → <i>referral-engine / clinic-engine</i>,
-    printable PPK forms, Thai ID integrations, audit trails</li>
+    <code>uploads</code>, <code>chores</code>, <code>weather</code>, <code>contractors</code>;
+    Flutter app (Riverpod + GoRouter)
+  </li>
+  <li><b>PPK Pre-Service (Hospital)</b> — Next.js + Laravel + MySQL →
+    <i>referral-engine / clinic-engine</i>, printable PPK forms, Thai ID integrations, audit trails
+  </li>
   <li><b>Per-Service Management</b> — screening-group permission, barrier token auth, government-style UI</li>
 </ul>
 
