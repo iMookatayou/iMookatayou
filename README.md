@@ -21,7 +21,7 @@
       <div style="height:10px;"></div>
       <sub><b>Most Used Languages</b></sub>
       <div style="margin-top:6px;">
-        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=10&hide_title=true" style="max-width:100%; border-radius:8px;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" />
       </div>
     </td>
   </tr>
