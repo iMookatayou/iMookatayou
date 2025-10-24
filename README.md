@@ -1,4 +1,16 @@
-<h2><u>Hi There I'm a Full-Stack Developer</u></h2>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+  <tr>
+    <td valign="middle" style="width:68%;">
+      <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
+    </td>
+    <td valign="middle" align="right" style="width:32%;">
+      <img src="./Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="36" style="vertical-align:middle; margin-left:10px;">
+      <img src="./kmitllogo.png" alt="KMITL" height="36" style="vertical-align:middle; margin-left:10px;">
+      <img src="./logoppk.png" alt="PPK" height="36" style="vertical-align:middle; margin-left:10px;">
+    </td>
+  </tr>
+</table>
+
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
 <p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
@@ -35,7 +47,7 @@
       <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
       <div style="height:10px;"></div>
       <div style="margin-top:6px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true">
       </div>
     </td>
   </tr>
@@ -88,5 +100,3 @@
   Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·
   Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a>
 </sub>
-
-<div style="height:18px;"></div>
