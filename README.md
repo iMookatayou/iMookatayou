@@ -71,13 +71,6 @@
 <h3>Contact</h3>
 <sub>Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> · Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a></sub>
 
-<div style="height:16px;"></div>
-
-<h3>Metrics</h3>
-<p><img src="./github-metrics.svg" width="100%" alt="metrics"></p>
-
-<div style="height:18px;"></div>
-
 <h3>What I'm Building</h3>
 <ul>
   <li><b>HomeService</b> — Go + pgx + Clean Architecture → modules:
@@ -128,6 +121,3 @@
 </sub>
 
 <div style="height:18px;"></div>
-
-<h3>Metrics</h3>
-<p><img src="./github-metrics.svg" width="100%" alt="metrics" /></p>
