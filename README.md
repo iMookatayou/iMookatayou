@@ -1,15 +1,11 @@
-<table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="border-collapse:collapse;border:0;">
-  <tr>
-    <td valign="middle" style="width:68%;border:0;padding:0;">
-      <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
-    </td>
-    <td valign="middle" align="right" style="width:32%;border:0;padding:0;">
-      <img src="./assets/Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="52" style="vertical-align:middle;margin-left:12px;">
-      <img src="./assets/kmitllogo.png" alt="KMITL" height="52" style="vertical-align:middle;margin-left:12px;">
-      <img src="./assets/logoppk.png" alt="PPK" height="52" style="vertical-align:middle;margin-left:12px;">
-    </td>
-  </tr>
-</table>
+<div style="display:flex;align-items:center;justify-content:space-between;margin:0 0 8px 0;">
+  <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <img src="./Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="48">
+    <img src="./kmitllogo.png" alt="KMITL" height="48">
+    <img src="./logoppk.png" alt="PPK" height="48">
+  </div>
+</div>
 
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
