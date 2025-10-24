@@ -25,7 +25,7 @@
         <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34">
       </p>
       <p>
-        <img src="https://skillicons.dev/icons?i=linux,bash,powershell,terminal&perline=14" height="34">
+        <img src="https://skillicons.dev/icons?i=bash,githubactions,jenkins,cloudflare,kubernetes&perline=14" height="34">
       </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
