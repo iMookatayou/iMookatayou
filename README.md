@@ -1,60 +1,83 @@
-<!-- ================= EMERALD x BLACK PROFILE ================= -->
+<!-- ============ S1: CLEAN PROFESSIONAL — EMERALD x BLACK ============ -->
 
-<!-- GIF มุมขวาบน: อัปโหลดไฟล์เป็น assets/hero.gif -->
-<img align="right" src="assets/hero.gif" width="260" alt="animated vibe" />
+<!-- Top-right animated GIF (upload to assets/hero.gif) -->
+<img align="right" src="assets/hero.gif" width="250" alt="animated profile gif" />
 
-<!-- Title -->
-<h1 align="left">iMookatayou</h1>
-<p align="left">
-  <b style="color:#0CE8A7">Full-stack & DevOps</b> — Hospital systems • HomeService • Go/Laravel/Next.js/Flutter
-</p>
+<h1 align="left">Techin • iMookatayou</h1>
+<sub>
+Fullstack Developer — building hospital systems and HomeService platforms with a clean, production-ready approach.
+</sub>
 
-<!-- Badges (คุมโทน emerald) -->
+<br/>
+
+<!-- Badges (emerald tone) -->
 <p>
   <img alt="theme" src="https://img.shields.io/badge/theme-emerald-black?labelColor=000&color=0CE8A7">
-  <img alt="followers" src="https://img.shields.io/github/followers/iMookatayou?style=flat&labelColor=000&color=0CE8A7">
-  <img alt="stars" src="https://img.shields.io/github/stars/iMookatayou?style=flat&labelColor=000&color=0CE8A7">
+  <img alt="followers" src="https://img.shields.io/github/followers/<your-username>?style=flat&labelColor=000&color=0CE8A7">
+  <img alt="stars" src="https://img.shields.io/github/stars/<your-username>?style=flat&labelColor=000&color=0CE8A7">
 </p>
 
 ---
 
-## 👋 About
-- สายระบบโรงพยาบาล (Referral/Queue) และ **HomeService** (Go + Flutter + IoT)
-- โทนงาน: เรียบ โปร เสถียร ดูแลต่อได้
-- เป้าหมายตอนนี้: จัดระเบียบโค้ด + Automate ผ่าน Actions
-
-## 🧰 Tools (เดี๋ยวใส่จริงภายหลัง)
-`Go` • `Laravel` • `Next.js/React` • `Flutter` • `Postgres/MySQL` • `Docker` • `n8n`
+### About
+<sub>
+I ship pragmatic software with a focus on clarity, reliability, and operational simplicity.  
+Recent work spans hospital referral/queue systems (Next.js + Laravel) and a HomeService ecosystem (Go + Flutter + PostgreSQL) with clean architecture and automation.
+</sub>
 
 ---
 
-## 🚀 Featured Projects
-- **PPK Referral/Queue System** — Next.js + Laravel + MySQL (Gov-style UI)
-- **HomeService** — Go (Chi + pgx) + Flutter + Postgres + IoT
-- **Monitoring Starter** — Go + Postgres + Auth + Clean modules
+### Tech Stack
+<sub>
+<strong>Languages</strong>: Go, TypeScript/JavaScript, PHP, Dart  
+<strong>Web</strong>: Next.js/React, Laravel, REST/JSON  
+<strong>Mobile</strong>: Flutter (Riverpod, GoRouter)  
+<strong>Data</strong>: PostgreSQL (pgx), MySQL  
+<strong>Infra</strong>: Docker, GitHub Actions, n8n  
+<strong>Patterns</strong>: Clean Architecture, repository patterns, DB triggers/migrations
+</sub>
 
 ---
 
-## 📊 GitHub Metrics
+### Featured Projects
+<sub>
+
+**PPK Referral/Queue System** — Next.js + Laravel + MySQL  
+Government-style UI, clear triage/referral flows, printable forms, and audit logging.
+
+**HomeService** — Go (Chi + pgx) + Flutter + PostgreSQL  
+Modular services (auth, notes, purchases, uploads, chores, weather) with strong DB types and migrations.
+
+**Monitoring Starter** — Go + PostgreSQL  
+Structured modules, logging, and baseline observability for small teams.
+</sub>
+
+---
+
+### GitHub Metrics
 <p align="center">
-  <!-- ภายหลังจะสร้างไฟล์นี้ด้วย GitHub Actions (lowlighter/metrics) -->
+  <!-- Will be generated later by lowlighter/metrics workflow -->
   <img src="./github-metrics.svg" alt="GitHub metrics (to be generated)">
 </p>
+<sub align="center">
+These infographics can be generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.
+</sub>
 
 ---
 
-## 🎴 Anime Corner (optional)
+### Anime Corner (optional)
 <details>
-  <summary>เปิดดู</summary>
-
-  - Favorites / Characters (จะต่อ AniList ผ่าน metrics plugin ทีหลัง)
-
+  <summary><sub>Open anime profile</sub></summary>
+  <sub>
+  This section will display favorites and characters via the Anilist plugin from <code>lowlighter/metrics</code>.
+  </sub>
 </details>
 
 ---
 
-## 📫 Reach
-- X/Twitter: @yourhandle
-- Email: you@example.com
+### Contact
+<sub>
+Website: <a href="https://your-site.example">your-site.example</a> • X/Twitter: @yourhandle • Email: you@example.com
+</sub>
 
 <!-- ================= END ================= -->
