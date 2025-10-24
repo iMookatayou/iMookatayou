@@ -19,7 +19,6 @@
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
       <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
       <div style="height:10px;"></div>
-      <sub><b>Most Used Languages</b></sub>
       <div style="margin-top:6px;">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" />
       </div>
