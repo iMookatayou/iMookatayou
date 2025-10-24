@@ -87,7 +87,7 @@
   <tr>
     <td align="center">2023 - Present</td>
     <td align="center"><img src="assets/logoppk.png" height="50"></td>
-    <td>Programmer</td>
+    <td>Programmer - Developer</td>
     <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
   </tr>
   <tr>
