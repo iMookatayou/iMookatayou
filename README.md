@@ -1,11 +1,5 @@
 <h2>
-  <u>
-    Hi There I'm a 
-    <span style="color:#2ecc71;font-weight:700;text-shadow:0 0 10px rgba(46,204,113,0.7);">
-      Full-Stack
-    </span> 
-    Developer
-  </u>
+  <u>Hi There I'm a <span style="color:#2ecc71;font-weight:700;">Full-Stack</span> Developer</u>
 </h2>
 
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
