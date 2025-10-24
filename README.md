@@ -1,9 +1,9 @@
 <div style="display:flex;align-items:center;justify-content:space-between;margin:0 0 8px 0;">
   <h2 style="margin:0;"><u>Hi There I'm a Full-Stack Developer</u></h2>
   <div style="display:flex;align-items:center;gap:12px;">
-    <img src="./Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="48">
-    <img src="./kmitllogo.png" alt="KMITL" height="48">
-    <img src="./logoppk.png" alt="PPK" height="48">
+    <img src="./assets/Rambhai_Barni_Rajabhat_University_Emblem.png" alt="RBRU" height="48">
+    <img src="./assets/kmitllogo.png" alt="KMITL" height="48">
+    <img src="./assets/logoppk.png" alt="PPK" height="48">
   </div>
 </div>
 
