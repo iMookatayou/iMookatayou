@@ -1,13 +1,13 @@
-<!-- ===== COMPACT PRO (no dividers) — Emerald x Black — v5 ===== -->
+<!-- ====== EMERALD × BLACK • Compact Pro README (v6) ====== -->
 
-<!-- Header: left text / right GIF -->
+<!-- Header: Left intro / Right GIF (Makima) -->
+
 <table width="100%">
   <tr>
     <td align="left" valign="top">
-      <h1 style="margin-bottom:0">Techin • iMookatayou</h1>
-      <sub>Fullstack Developer — hospital systems and HomeService platforms • clean & production-ready</sub>
-      <br/>
-      <sub>Now: Go + PostgreSQL • Laravel • Next.js/React • Flutter • Docker • GitHub Actions</sub>
+      <h1 style="margin:0">Techin • iMookatayou</h1>
+      <sub>Full‑Stack Developer · hospital systems & HomeService · clean, production‑ready</sub><br/>
+      <sub>Now: Go + PostgreSQL · Laravel · Next.js/React · Flutter · Docker · GitHub Actions</sub>
     </td>
     <td align="right" valign="top" width="260">
       <img src="assets/makima-chainsaw-man.gif" width="240" alt="profile gif"/>
@@ -15,92 +15,83 @@
   </tr>
 </table>
 
-<!-- Two columns like lowlighter (left = dev/metrics, right = anime/media) -->
+<!-- Two columns: left (dev) / right (personality) -->
+
 <table width="100%">
   <tr>
-    <td width="52%" valign="top">
-      <sub><b>Profile</b></sub>
-      <br/>
-      <sub>• Pragmatic shipping • clarity & reliability • small teams & automation</sub>
+    <td width="54%" valign="top">
+      <sub><b>Profile</b></sub><br/>
+      <sub>• Pragmatic shipping • clarity & reliability • automation in small teams</sub>
       <br/><br/>
 
-      <sub><b>Highlights</b></sub>
-      <br/>
-      <sub>• Hospital referral/queue (Next.js + Laravel) • printable flows, audit logs</sub><br/>
-      <sub>• HomeService (Go + Flutter + PostgreSQL) • modular services, strong DB types</sub>
-      <br/><br/>
+```
+  <sub><b>Highlights</b></sub><br/>
+```
 
-      <!-- Metrics image (optional; will appear after we add workflow) -->
-      <p><img src="./github-metrics.svg" alt="GitHub metrics (to be generated)" /></p>
-    </td>
+<sub>• <b>PPK Referral/Queue</b> — Next.js + Laravel → triage/referral, printable forms, audits</sub><br/> <sub>• <b>HomeService</b> — Go + Flutter + PostgreSQL → modular services, typed schema/migrations</sub><br/> <sub>• <b>Monitoring Starter</b> — Go + PostgreSQL → logging, metrics, tracing</sub> <br/><br/>
 
-    <td width="48%" valign="top">
-      <sub><b>Anime / Media</b></sub>
-      <br/>
-      <sub>Favorites & characters via Anilist (collapsible list below). Music recents optional.</sub>
-      <br/><br/>
-      <!-- Placeholder image to keep layout balanced; can be replaced by a metrics widget later -->
-      <img src="https://gist.githubusercontent.com/lowlighter/3c6eaedf50273adfb7a510822672f570/raw/placeholder.svg" width="100%" alt="media placeholder"/>
-    </td>
+<sub><b>Modules & Systems</b></sub><br/> <sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic‑engine · referral‑engine · automations(n8n)</code></sub> <br/><br/>
+
+<sub><b>Featured Projects</b></sub><br/> <sub>• <b>PPK Referral/Queue</b> — <i>Next.js + Laravel + MySQL</i> · gov‑style UI · referral flows · printable · audits</sub><br/> <sub>• <b>HomeService</b> — <i>Go (Chi+pgx) + Flutter + PostgreSQL</i> · auth/notes/purchases/uploads/chores/weather</sub><br/> <sub>• <b>Monitoring Starter</b> — <i>Go + PostgreSQL</i> · structured modules · observability baseline</sub> <br/>
+
+</td>
+
+<td width="46%" valign="top">
+<sub><b>Engineering Focus</b></sub><br/>
+<sub><b>Delivery</b>: Docker · GitHub Actions (CI/CD) · versioned migrations · rollback</sub><br/>
+<sub><b>Reliability</b>: SLOs · rate‑limits · retries/backoff · health checks</sub><br/>
+<sub><b>Security</b>: JWT · RBAC · audit logs · secrets via env/runner</sub><br/>
+<sub><b>Data</b>: pgx · prepared statements · indexes · PITR backups</sub><br/>
+<sub><b>Ops</b>: zero‑downtime deploys · structured logs · alerts</sub>
+</td>
   </tr>
 </table>
 
 <br/>
 
 ### Tech Stack
-<sub>Small icons, many per row; color allowed for tech, overall theme stays black + emerald.</sub>
 
-**Languages**
+<sub>Compact, single‑line. Emerald × Black theme.</sub>
+
 <p>
-  <img src="https://skillicons.dev/icons?i=go,ts,js,python,php,dart&perline=14" height="26" />
+  <!-- Prefer skillicons for compact visual density -->
+  <img src="https://skillicons.dev/icons?i=go,postgres,laravel,react,nextjs,flutter,ts,js,php,dart,docker,githubactions,redis,nginx,linux,ubuntu,arch&perline=18" height="26" />
 </p>
 
-**Web / Frameworks**
+<!-- Optional: extra text badges (kept tiny & neutral) -->
+
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,laravel&perline=14" height="26" />
+  <sub><code>Clean Architecture</code> · <code>CI/CD</code> · <code>pgx</code> · <code>Chi</code> · <code>Prisma</code> · <code>Tailwind</code> · <code>Framer Motion</code></sub>
 </p>
-
-**Mobile**
-<p>
-  <img src="https://skillicons.dev/icons?i=flutter&perline=14" height="26" />
-</p>
-
-**Databases**
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=14" height="26" />
-</p>
-
-**Cloud / DevOps / OS**
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,aws,firebase,jenkins,githubactions,nginx,linux,ubuntu,arch&perline=14" height="26" />
-</p>
-
-**Tools**
-<p>
-  <img src="https://skillicons.dev/icons?i=postman,git,github,vscode&perline=14" height="26" />
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-Automations-0CE8A7?labelColor=000" height="18" style="vertical-align:middle;margin-left:6px;" />
-</p>
-
-<br/>
-
-### Featured Projects
-<sub>Compact copy like a changelog—no lines, no wrapping collisions.</sub>
-
-- <sub><b>PPK Referral/Queue</b> — <i>Next.js + Laravel + MySQL</i> · gov-style UI · triage/referral flows · printable forms · audit logs</sub>  
-- <sub><b>HomeService</b> — <i>Go (Chi + pgx) + Flutter + PostgreSQL</i> · auth/notes/purchases/uploads/chores/weather · typed migrations</sub>  
-- <sub><b>Monitoring Starter</b> — <i>Go + PostgreSQL</i> · structured modules · logging · baseline observability</sub>
 
 <br/>
 
 ### Anime Corner
+
 <details>
-  <summary><sub>Open anime profile</sub></summary>
-  <sub>This will render favorites & characters via the Anilist plugin of <code>lowlighter/metrics</code>.</sub>
+  <summary><sub>Open anime profile (Anilist via lowlighter/metrics)</sub></summary>
+  <sub>This renders favorites & characters using the Anilist plugin. Keep folded by default to save space.</sub>
 </details>
 
 <br/>
 
-### Contact
-<sub>Website: <a href="https://your-site.example">your-site.example</a> • X/Twitter: @yourhandle • Email: you@example.com</sub>
+### Metrics
 
-<!-- ===== END ===== -->
+<p>
+  <img src="./github-metrics.svg" width="100%" alt="GitHub metrics (generated by lowlighter/metrics)" />
+</p>
+
+<br/>
+
+### Contact
+
+<sub>
+  Website: <a href="https://your-site.example">your-site.example</a> · X/Twitter: @yourhandle · Email: you@example.com
+</sub>
+
+<!-- ====== Notes ======
+- Replace contact links with real ones.
+- Put your metrics GitHub Action to generate github-metrics.svg on schedule.
+- Keep everything compact; avoid divider lines; maintain Emerald × Black vibe.
+- If you want a tighter look, reduce <br/> where needed.
+-->
