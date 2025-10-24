@@ -1,8 +1,6 @@
-<h2>
-  <span style="border-bottom:2px solid #2ecc71;">
-    Hi There I'm a <span style="color:#2ecc71; font-weight:700;">Full-Stack</span> Developer
-  </span>
-</h2>
+<p>
+  <img src="assets/heading-fullstack.svg" alt="Hi There I'm a Full-Stack Developer" width="100%" style="max-width:780px;">
+</p>
 
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
