@@ -29,7 +29,6 @@
         <img src="https://skillicons.dev/icons?i=git" height="34">
         <img src="https://skillicons.dev/icons?i=github" height="34">
         <img src="https://skillicons.dev/icons?i=vim" height="34">
-        <img src="https://skillicons.dev/icons?i=terminal" height="34">
       </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
