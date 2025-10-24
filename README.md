@@ -85,7 +85,7 @@
     <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
   </tr>
   <tr>
-    <td align="center">2023 - Present</td>
+    <td align="center">2025 - Apprentice</td>
     <td align="center"><img src="assets/logoppk.png" height="50"></td>
     <td>Full-stack Developer</td>
     <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
