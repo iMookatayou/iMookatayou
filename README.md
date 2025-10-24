@@ -21,9 +21,9 @@
         <img src="https://skillicons.dev/icons?i=vim" height="34">
       </p>
     </td>
-    <td valign="top" align="right" width="32%">
-      <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px;">
-      <div>
+    <td valign="top" width="32%">
+      <div style="display:flex; flex-direction:column; align-items:flex-end;">
+        <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true">
       </div>
     </td>
