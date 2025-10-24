@@ -25,16 +25,11 @@
         <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34">
       </p>
       <p style="margin:6px 0 0 0;">
-        <img height="28" alt="Terminal"
-             src="https://img.shields.io/badge/🖥️%20Terminal-CLI-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937">
-        <img height="28" alt="System"
-             src="https://img.shields.io/badge/⚙️%20System-OS/Kernel-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937">
-        <img height="28" alt="Build"
-             src="https://img.shields.io/badge/🔧%20Build-Pipeline-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937">
-        <img height="28" alt="Web"
-             src="https://img.shields.io/badge/🌐%20Web-HTTP/HTTPS-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937">
-        <img height="28" alt="Backend"
-             src="https://img.shields.io/badge/🗄️%20Backend-API/Services-1f2937?style=for-the-badge&labelColor=0f172a&color=1f2937">
+        <img src="https://skillicons.dev/icons?i=bash" height="34">
+        <img src="https://skillicons.dev/icons?i=git" height="34">
+        <img src="https://skillicons.dev/icons?i=github" height="34">
+        <img src="https://skillicons.dev/icons?i=vim" height="34">
+        <img src="https://skillicons.dev/icons?i=stackoverflow" height="34">
       </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
