@@ -1,1 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" role="img" aria-label="Hi There I'm a Full-Stack Developer">
+  <title>Hi There I'm a Full-Stack Developer</title>
+  <style>
+    .heading { font: 700 32px/1.2 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", "Noto Sans", Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .muted   { fill: #e5e7eb; }     /* เทาอ่อนอ่านง่ายบนดาร์กธีม */
+    .emerald { fill: #10b981; }     /* Emerald / มรกต */
+    .white   { fill: #ffffff; }     /* ขาว */
+  </style>
 
+  <text x="0" y="48" class="heading">
+    <tspan class="muted">Hi There I'm a </tspan>
+    <tspan class="emerald">Full-Stack</tspan>
+    <tspan class="white"> Developer</tspan>
+  </text>
+</svg>
