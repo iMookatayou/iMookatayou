@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px;">
+  <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
 </p>
 
 ---
