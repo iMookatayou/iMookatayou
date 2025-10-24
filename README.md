@@ -6,8 +6,6 @@
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
 <p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
 
----
-
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td valign="top" width="68%">
@@ -32,8 +30,6 @@
     </td>
   </tr>
 </table>
-
----
 
 ### What I'm Building
 - **HomeService** — Go + pgx + Clean Architecture → modules: auth, users, notes, purchases, uploads, chores, weather, contractors  
