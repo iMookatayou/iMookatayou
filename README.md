@@ -12,14 +12,6 @@
 
 <br/>
 
-<h3>Tech Stack</h3>
-
-<p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
-<p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
-<p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
-
-<br/>
-
 <table width="100%">
   <tr>
     <!-- LEFT COLUMN -->
