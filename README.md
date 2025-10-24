@@ -15,31 +15,11 @@
   </tr>
 </table>
 
-<!-- Two columns: left (dev) / right (personality) -->
+<!-- Header Summary (no boxes, free-flow like example) -->
 
-<table width="100%">
-  <tr>
-    <td width="54%" valign="top">
-      <sub>• PPK Referral/Queue → triage/referral rules, printable forms, audit trails, role control</sub><br/>
-<sub>• HomeService Platform → Go backend, Flutter mobile, PostgreSQL typed schema, offline-ready</sub><br/>
-<sub>• Clinic engine + referral logic (medical rules) • automation via n8n • production-first mindset</sub><br/><br/>
-
-<sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub> <br/><br/>
-
-<sub><b>Delivery</b>: Docker • GitHub Actions (CI/CD) • zero‑downtime deploy • migrations guard • rollback</sub><br/> <sub><b>Reliability</b>: rate‑limits • retries/backoff • health checks • graceful shutdown</sub><br/> <sub><b>Security</b>: JWT • RBAC • audit logs • secret management</sub><br/> <sub><b>Data</b>: PostgreSQL (pgx) • indexes • PITR backups • query tracing</sub><br/>
-
-</td>
-
-<td width="46%" valign="top">
-<sub><b>Engineering Focus</b></sub><br/>
-<sub><b>Delivery</b>: Docker · GitHub Actions (CI/CD) · versioned migrations · rollback</sub><br/>
-<sub><b>Reliability</b>: SLOs · rate‑limits · retries/backoff · health checks</sub><br/>
-<sub><b>Security</b>: JWT · RBAC · audit logs · secrets via env/runner</sub><br/>
-<sub><b>Data</b>: pgx · prepared statements · indexes · PITR backups</sub><br/>
-<sub><b>Ops</b>: zero‑downtime deploys · structured logs · alerts</sub>
-</td>
-  </tr>
-</table>
+<p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
+<p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
+<p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
 
 <br/>
 
