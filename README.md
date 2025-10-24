@@ -70,14 +70,14 @@
 
 ---
 
-### Education Timeline
+### Education & Career Timeline
 <div align="center">
 
-| ปี | สถานศึกษา | สถานะ | รายละเอียด |
-|---|------------|--------|-------------|
-| 2021 - ปัจจุบัน | <img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="48"> | 🎓 ปริญญาตรี (ปัจจุบัน) | มหาวิทยาลัยราชภัฏรำไพพรรณี (RBRU) |
-| 2023 - ปัจจุบัน | <img src="assets/logoppk.png" height="48"> | 🏥 ประจำแผนก IT | โรงพยาบาลพระปกเกล้า (PPK) |
-| เป้าหมายถัดไป | <img src="assets/kmitllogo.png" height="48"> | 🎯 ปริญญาโท | King Mongkut’s Institute of Technology Ladkrabang (KMITL) |
+| Year | Institution | Role / Status | Description |
+|---|---|---|---|
+| 2021 - Present | <img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="48"> | B.Sc. in Information Technology (Undergraduate) | Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology |
+| 2023 - Present | <img src="assets/logoppk.png" height="48"> | Programmer | Phrapokklao Hospital (PPK), Chanthaburi |
+| Next Step | <img src="assets/kmitllogo.png" height="48"> | Master's Degree Goal | King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering |
 
 </div>
 
