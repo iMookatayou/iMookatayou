@@ -54,7 +54,6 @@
 </table>
 
 <div style="height:16px;"></div>
-
 <p>
   <img src="./metrics-isometric.svg" style="max-width:100%;border-radius:8px;">
 </p>
