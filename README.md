@@ -10,20 +10,17 @@
 
 <table width="100%">
   <tr>
-    <!-- ===== LEFT (Main) ===== -->
+    <!-- LEFT COLUMN -->
     <td width="66%" valign="top">
 
 <h3>Tech Stack</h3>
 
-<!-- Dense & compact: ลดขนาดไอคอนลง, perline สูงขึ้น, margin ต่ำ -->
+<!-- Dense & compact icons (two rows) -->
 <p style="margin:6px 0 0 0;">
-  <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="36" />
-</p>
-<p style="margin:6px 0 0 0;">
-  <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="36" />
+  <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="34" />
 </p>
 <p style="margin:6px 0 6px 0;">
-  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,supabase,nginx,postman,git,github,vscode&perline=16" height="28" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34" />
 </p>
 
 <sub><code>Go (Chi, pgx, Zap)</code> · <code>PostgreSQL</code> · <code>Redis</code> ·
@@ -36,39 +33,47 @@
 
 <h3>What I'm Building</h3>
 
-- <b>HomeService</b> — Go + pgx + Clean Architecture → modules:
+<ul>
+<li><b>HomeService</b> — Go + pgx + Clean Architecture → modules:
   <code>auth</code>, <code>users</code>, <code>notes</code>, <code>purchases</code>,
-  <code>uploads</code>, <code>chores</code>, <code>weather</code>, <code>contractors</code>; Flutter app (Riverpod + GoRouter)
-- <b>PPK Pre-Service (Hospital)</b> — Next.js + Laravel + MySQL → <i>referral-engine / clinic-engine</i>,
-  printable PPK forms, Thai ID integrations, audit trails
-- <b>Per-Service Management</b> — screening-group permission, barrier token auth, government-style UI
+  <code>uploads</code>, <code>chores</code>, <code>weather</code>, <code>contractors</code>; Flutter app (Riverpod + GoRouter)</li>
+<li><b>PPK Pre-Service (Hospital)</b> — Next.js + Laravel + MySQL → <i>referral-engine / clinic-engine</i>,
+  printable PPK forms, Thai ID integrations, audit trails</li>
+<li><b>Per-Service Management</b> — screening-group permission, barrier token auth, government-style UI</li>
+</ul>
 
 <br/>
 
 <h3>Selected Modules (Specs)</h3>
 
-- <b>Notes</b> — list/search/pin, SQL filters, repo pattern, GIN-index ready  
-- <b>Purchases</b> — state machine: <code>planned → ordered → bought → delivered</code>, amount estimate/paid, itemized entries, file attachments  
-- <b>Uploads</b> — <code>POST /uploads</code> (JWT + multipart), trigger <code>files_before_write</code> เติม filename/mime/bytes/url  
-- <b>Referral Engine (PPK)</b> — UTI/Cellulitis/Animal-bite rules, clinics <code>muang</code>/<code>surg</code>/<code>uro</code>, Tue/Thu morning gating (TH time)  
-- <b>Contractors</b> — geolocation banner/permission flow (Geolocator), type filters, deep-link Maps/Call
+<ul>
+<li><b>Notes</b> — list/search/pin, SQL filters, repo pattern, GIN-index ready</li>
+<li><b>Purchases</b> — state machine: <code>planned → ordered → bought → delivered</code>, amount estimate/paid, itemized entries, file attachments</li>
+<li><b>Uploads</b> — <code>POST /uploads</code> (JWT + multipart), trigger <code>files_before_write</code> เติม filename/mime/bytes/url</li>
+<li><b>Referral Engine (PPK)</b> — UTI/Cellulitis/Animal-bite rules, clinics <code>muang</code>/<code>surg</code>/<code>uro</code>, Tue/Thu morning gating (TH time)</li>
+<li><b>Contractors</b> — geolocation banner/permission flow (Geolocator), type filters, deep-link Maps/Call</li>
+</ul>
 
 <br/>
 
 <h3>DevOps</h3>
 
-- Docker multi-stage, offline composer cache, entrypoint migrations/seeds  
-- CI/CD (GitHub Actions): build/test/lint/deploy, migrations guard, zero-downtime  
-- Observability: Zap logging, request IDs; Security: JWT, RBAC, CORS/Nginx
+<ul>
+<li>Docker multi-stage, offline composer cache, entrypoint migrations/seeds</li>
+<li>CI/CD (GitHub Actions): build/test/lint/deploy, migrations guard, zero-downtime</li>
+<li>Observability: Zap logging, request IDs; Security: JWT, RBAC, CORS/Nginx</li>
+</ul>
 
 <br/>
 
 <h3>Showcases</h3>
 
-- <b>Homeservice</b> — Go + PostgreSQL + Clean Arch  
-- <b>PPK-Form</b> — Next.js + Laravel + printable forms + referral rules  
-- <b>Surgical-OPD-Registry</b> — Nuxt + MySQL  
-- <b>Monitoring-Dashboard-Starter</b> — Go + Postgres
+<ul>
+<li><b>Homeservice</b> — Go + PostgreSQL + Clean Arch</li>
+<li><b>PPK-Form</b> — Next.js + Laravel + printable forms + referral rules</li>
+<li><b>Surgical-OPD-Registry</b> — Nuxt + MySQL</li>
+<li><b>Monitoring-Dashboard-Starter</b> — Go + Postgres</li>
+</ul>
 
 <br/>
 
@@ -88,15 +93,15 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
 
     </td>
 
-    <!-- ===== RIGHT (Sidebar) ===== -->
+    <!-- RIGHT COLUMN -->
     <td width="34%" valign="top">
 
-<!-- Makima ขวาบน: ย่อให้พอดี + เว้นระยะ -->
+<!-- Makima top-right -->
 <p style="margin:0 0 12px 0; text-align:right;">
-  <img src="assets/makima-chainsaw-man.gif" width="220" alt="makima" />
+  <img src="assets/makima-chainsaw-man.gif" width="210" alt="makima" />
 </p>
 
-<!-- Most Used Languages ใต้รูป (Style B สีแน่น), ขนาดพอดี -->
+<!-- Most Used Languages under Makima -->
 <sub><b>Most Used Languages</b></sub>
 <p style="margin:8px 0 16px 0;">
   <img
@@ -112,13 +117,6 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
   <img alt="Go" src="https://img.shields.io/badge/Go-ship-00ADD8?logo=go" />
 </p>
 
-<!-- (Optional) เปิด WakaTime ได้โดยลบคอมเมนต์บรรทัดด้านล่าง และแทน YOUR_WAKATIME ด้วย username จริง
-<h3>WakaTime</h3>
-<p>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/wakatime?username=YOUR_WAKATIME&layout=compact&hide_title=false" width="100%" alt="wakatime"/>
-</p>
--->
-
 <h3>Anime Corner</h3>
 <sub>Rendered via Anilist on metrics (optional).</sub>
 
@@ -129,7 +127,7 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
 <br/>
 
 <!-- Notes:
-- Makima ขวาบน width=220; ถ้ายังชน ให้ลดเหลือ 200 ได้
-- Tech Stack ย่อจาก 44px → 36px และเพิ่ม perline เพื่อ “อัดแน่นแต่ไม่ล้น”
-- แถวที่ 3 ของ Tech Stack (tools) ใช้ height=28 เพื่อไม่กินพื้นที่เกิน
+- Do NOT wrap this HTML with triple backticks in your README.
+- Ensure the file assets/makima-chainsaw-man.gif (or png/webp/jpg) exists.
+- Adjust sizes: Makima width 210, icon heights 34; tweak to 200/32 if needed.
 -->
