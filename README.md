@@ -2,7 +2,7 @@
   <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px;">
 </p>
 <div style="margin-top:-10px; margin-bottom:20px; font-weight:700;">
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </div>
 
 <p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
