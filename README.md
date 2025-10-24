@@ -65,21 +65,39 @@
 
 ---
 
-### Metrics
-<img src="./github-metrics.svg" width="70%">
-
+###  Metrics
+<div align="center">
+  <img src="./github-metrics.svg" width="75%">
+</div>
 ---
 
 ### Education & Career Timeline
-<div align="center">
-
-| Year | Institution | Role / Status | Description |
-|---|---|---|---|
-| 2021 - Present | <img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="48"> | B.Sc. in Information Technology (Undergraduate) | Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology |
-| 2023 - Present | <img src="assets/logoppk.png" height="48"> | Programmer | Phrapokklao Hospital (PPK), Chanthaburi |
-| Next Step | <img src="assets/kmitllogo.png" height="48"> | Master's Degree Goal | King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering |
-
-</div>
+<table align="center">
+  <tr>
+    <th width="15%">Year</th>
+    <th width="20%">Institution</th>
+    <th width="25%">Role / Status</th>
+    <th width="40%">Description</th>
+  </tr>
+  <tr>
+    <td align="center">2021 - Present</td>
+    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="50"></td>
+    <td>B.Sc. in Information Technology (Undergraduate)</td>
+    <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
+  </tr>
+  <tr>
+    <td align="center">2023 - Present</td>
+    <td align="center"><img src="assets/logoppk.png" height="50"></td>
+    <td>Programmer</td>
+    <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
+  </tr>
+  <tr>
+    <td align="center">Next Step</td>
+    <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
+    <td>Master's Degree Goal</td>
+    <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
+  </tr>
+</table>
 
 ### Contact
 <sub>
