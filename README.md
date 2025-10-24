@@ -10,10 +10,23 @@
     <td valign="top" width="68%">
       <h3>Tech Stack</h3>
       <p style="margin:6px 0 0 0;">
-        <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="34">
+        <img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34">
       </p>
-      <p style="margin:6px 0 6px 0;">
-        <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34">
+      <p style="margin:6px 0 0 0;">
+        <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,reactnative,flutter,tailwind,vite&perline=14" height="34">
+      </p>
+      <p style="margin:6px 0 0 0;">
+        <img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34">
+      </p>
+      <p style="margin:6px 0 0 0;">
+        <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34">
+      </p>
+      <p style="margin:6px 0 0 0;">
+        <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,nvim,arduino,postman&perline=14" height="34">
+      </p>
+      <p style="margin:6px 0 0 0;">
+        <img src="https://img.shields.io/badge/DBeaver-372923?style=for-the-badge&logo=dbeaver&logoColor=white" height="28">
+        <img src="https://img.shields.io/badge/Luna_Modular-gray?style=for-the-badge" height="28">
       </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
