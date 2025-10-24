@@ -20,19 +20,13 @@
 <table width="100%">
   <tr>
     <td width="54%" valign="top">
-      <sub><b>Profile</b></sub><br/>
-      <sub>• Pragmatic shipping • clarity & reliability • automation in small teams</sub>
-      <br/><br/>
+      <sub>• PPK Referral/Queue → triage/referral rules, printable forms, audit trails, role control</sub><br/>
+<sub>• HomeService Platform → Go backend, Flutter mobile, PostgreSQL typed schema, offline-ready</sub><br/>
+<sub>• Clinic engine + referral logic (medical rules) • automation via n8n • production-first mindset</sub><br/><br/>
 
-```
-  <sub><b>Highlights</b></sub><br/>
-```
+<sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub> <br/><br/>
 
-<sub>• <b>PPK Referral/Queue</b> — Next.js + Laravel → triage/referral, printable forms, audits</sub><br/> <sub>• <b>HomeService</b> — Go + Flutter + PostgreSQL → modular services, typed schema/migrations</sub><br/> <sub>• <b>Monitoring Starter</b> — Go + PostgreSQL → logging, metrics, tracing</sub> <br/><br/>
-
-<sub><b>Modules & Systems</b></sub><br/> <sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic‑engine · referral‑engine · automations(n8n)</code></sub> <br/><br/>
-
-<sub><b>Featured Projects</b></sub><br/> <sub>• <b>PPK Referral/Queue</b> — <i>Next.js + Laravel + MySQL</i> · gov‑style UI · referral flows · printable · audits</sub><br/> <sub>• <b>HomeService</b> — <i>Go (Chi+pgx) + Flutter + PostgreSQL</i> · auth/notes/purchases/uploads/chores/weather</sub><br/> <sub>• <b>Monitoring Starter</b> — <i>Go + PostgreSQL</i> · structured modules · observability baseline</sub> <br/>
+<sub><b>Delivery</b>: Docker • GitHub Actions (CI/CD) • zero‑downtime deploy • migrations guard • rollback</sub><br/> <sub><b>Reliability</b>: rate‑limits • retries/backoff • health checks • graceful shutdown</sub><br/> <sub><b>Security</b>: JWT • RBAC • audit logs • secret management</sub><br/> <sub><b>Data</b>: PostgreSQL (pgx) • indexes • PITR backups • query tracing</sub><br/>
 
 </td>
 
