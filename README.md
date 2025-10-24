@@ -7,29 +7,29 @@
 
 <hr/>
 
-<!-- ===== Tech Stack + Makima (RIGHT) with TABLE layout ===== -->
-<table width="100%" cellspacing="0" cellpadding="0">
+<!-- ===== Tech Stack + Makima (RIGHT) using TABLE ===== -->
+<table width="100%">
   <tr>
     <!-- LEFT -->
-    <td valign="top" style="width:68%;">
+    <td valign="top" width="68%">
 
       <h3>Tech Stack</h3>
-      <p style="margin:6px 0 0 0;">
+      <p>
         <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=14" height="34" />
       </p>
-      <p style="margin:6px 0 6px 0;">
+      <p>
         <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=14" height="34" />
       </p>
 
     </td>
 
     <!-- RIGHT -->
-    <td valign="top" align="right" style="width:32%; padding-left:16px;">
-      <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" style="border-radius:12px; max-width:100%;" />
+    <td valign="top" align="right" width="32%">
+      <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px;" />
     </td>
   </tr>
 </table>
-<!-- ========================================================== -->
+
 
 <hr/>
 
