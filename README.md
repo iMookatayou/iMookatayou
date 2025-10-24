@@ -24,6 +24,9 @@
       <p style="margin:6px 0 0 0;">
         <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34">
       </p>
+      <p>
+        <img src="https://skillicons.dev/icons?i=linux,bash,powershell,terminal&perline=14" height="34">
+      </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
       <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
