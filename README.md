@@ -80,19 +80,19 @@
   </tr>
   <tr>
     <td align="center">2021 - Present</td>
-    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="35"></td>
+    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="20"></td>
     <td>B.Sc. in Information Technology (Undergraduate)</td>
     <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
   </tr>
   <tr>
     <td align="center">2025 - Apprentice</td>
-    <td align="center"><img src="assets/logoppk.png" height="35"></td>
+    <td align="center"><img src="assets/logoppk.png" height="20"></td>
     <td>Full-stack Developer</td>
     <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
   </tr>
   <tr>
     <td align="center">Plan to</td>
-    <td align="center"><img src="assets/kmitllogo.png" height="35"></td>
+    <td align="center"><img src="assets/kmitllogo.png" height="20"></td>
     <td>Master's Degree Goal</td>
     <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
   </tr>
