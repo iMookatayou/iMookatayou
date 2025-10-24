@@ -25,12 +25,12 @@
         <img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34">
       </p>
       <p style="margin:6px 0 0 0;">
-      <img src="https://skillicons.dev/icons?i=bash" height="34">
-      <img src="https://skillicons.dev/icons?i=git" height="34">
-      <img src="https://skillicons.dev/icons?i=github" height="34">
-      <img src="https://skillicons.dev/icons?i=vim" height="34">
-      <img src="https://skillicons.dev/icons?i=tmux" height="34">
-    </p>
+        <img src="https://skillicons.dev/icons?i=bash" height="34">
+        <img src="https://skillicons.dev/icons?i=git" height="34">
+        <img src="https://skillicons.dev/icons?i=github" height="34">
+        <img src="https://skillicons.dev/icons?i=vim" height="34">
+        <img src="https://skillicons.dev/icons?i=terminal" height="34">
+      </p>
     </td>
     <td valign="top" align="right" width="32%" style="padding-left:16px;">
       <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; max-width:100%;">
