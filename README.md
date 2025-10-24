@@ -16,10 +16,15 @@
     <td width="66%" valign="top">
 
 <h3>Tech Stack</h3>
-<p>
-  <!-- ↑ ขยายขนาด stack ให้เด่น (เดิม 26 → 36) -->
-  <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch,php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=18" height="36" />
+
+<!-- T1: ไอคอนใหญ่เต็มแผง (2 แถว) -->
+<p style="margin: 6px 0 0 0;">
+  <img src="https://skillicons.dev/icons?i=go,postgres,redis,nginx,docker,githubactions,linux,ubuntu,arch&perline=12" height="44" />
 </p>
+<p style="margin: 8px 0 0 0;">
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,js,react,nextjs,flutter,dart,tailwind,prisma&perline=12" height="44" />
+</p>
+
 <sub><code>Go (Chi, pgx, Zap)</code> · <code>PostgreSQL</code> · <code>Redis</code> ·
 <code>Laravel 12 (PHP 8.3)</code> · <code>Next.js 15 / React 19</code> ·
 <code>Flutter (Riverpod, GoRouter)</code> · <code>Tailwind</code> ·
@@ -86,12 +91,12 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
     <!-- ===== RIGHT (Sidebar) ===== -->
     <td width="34%" valign="top">
 
-<!-- รูปมาคิมะขวาบน + เว้นระยะเท่า ๆ กัน -->
-<p style="margin:0 0 12px 0;">
-  <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" style="display:block; margin:0 auto 0 auto;" />
+<!-- รูปมาคิมะชิดขวาบน + เว้นระยะเท่า ๆ กัน -->
+<p style="margin:0 0 12px 0; text-align:right;">
+  <img src="assets/makima-chainsaw-man.gif" width="240" alt="makima" />
 </p>
 
-<!-- Most Used Languages: ใต้รูป + ย่อหัว -->
+<!-- Most Used Languages: ใต้รูป + สไตล์ B (สีแน่นจัดเต็ม) -->
 <sub><b>Most Used Languages</b></sub>
 <p style="margin:8px 0 16px 0;">
   <!-- ใช้ mirror ที่นิ่งกว่าเพื่อลด error -->
@@ -126,8 +131,8 @@ Email (work): <a href="mailto:fenyyei@gmail.com">fenyyei@gmail.com</a>
 <br/>
 
 <!-- Notes:
-- ไม่มีกรอบ ใช้สองคอลัมน์เต็มความกว้าง
-- รูปมาคิมะอยู่ขวาบน เว้นระยะเท่ากัน
-- Most Used ใช้ mirror เพื่อลด error rate limit
-- Metrics จะทำงานหลังตั้ง workflow ของ lowlighter/metrics (ถ้าไม่ตั้ง หน้านี้ก็ไม่พัง)
+- Two-column, no borders. ใช้พื้นที่ซ้าย-ขวาเต็ม
+- Tech Stack = T1 ไอคอนใหญ่จริง (height=44) 2 แถว
+- Most Used Languages = Style B ใต้รูปมาคิมะ
+- Metrics จะทำงานหลังตั้ง workflow lowlighter/metrics; ถ้าไม่ตั้ง หน้าไม่พัง
 -->
