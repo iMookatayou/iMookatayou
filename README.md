@@ -4,13 +4,7 @@
 
 ---
 
-<b>PPK Health System</b> — smart triage engine · referral rules · printable case forms  
-<b>HomeService Platform</b> — household management suite · Go backend · Flutter app · PostgreSQL  
-
-<sub>
-modules: auth · users · purchases · notes · contractors · clinic-engine · referral-engine · file service · automation  
-stack: Go · Flutter · PostgreSQL · Docker · n8n · JWT · RBAC · pgx · CI/CD · production-first
-</sub>
+<p><sub><b>PPK Referral/Queue</b> → triage & referral rules, printable forms, audit trails • <b>HomeService Platform</b> → Go backend + Flutter mobile • automation (n8n) • <b>production-first</b> mindset</sub></p> <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p> <p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL (pgx)</sub></p>
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
