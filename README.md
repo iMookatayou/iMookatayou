@@ -37,14 +37,6 @@
       </p>
       <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
       <h3>Engineering Focus</h3>
-      <ul>
-        <li>Backend Architecture (Go, Clean Architecture, modular design)</li>
-        <li>Data consistency & transaction safety</li>
-        <li>API platforms (typed JSON contracts, pragmatic REST)</li>
-        <li>CI/CD, containers, repeatable deployments</li>
-        <li>Observability (logs, metrics, traces) & rollback paths</li>
-        <li>Workflow orchestration (n8n, workers, schedulers)</li>
-      </ul>
     </td>
     <td valign="top" width="32%">
       <div style="display:flex; flex-direction:column; align-items:flex-end;">
