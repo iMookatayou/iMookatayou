@@ -47,6 +47,18 @@ I’m a full-stack and systems-minded developer who cares about production more 
 
 These projects share the same philosophy: small composable modules, explicit JSON shapes, predictable deployments, and documentation that explains how the system behaves under real-world pressure.
 
+<p align="center">
+  <b>Crafting production-grade backend systems with precision architecture and automation excellence.</b>
+</p>
+
+<p align="center">
+  <a href="https://go.dev/"><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"></a>
+  <a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"></a>
+  <a href="https://flutter.dev/"><img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white"></a>
+  <a href="https://www.docker.com/"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"></a>
+  <a href="https://github.com/features/actions"><img alt="CI/CD" src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-000000?logo=githubactions&logoColor=white"></a>
+</p>
+
 ---
 
 ### Platform Modules
@@ -82,18 +94,6 @@ These projects share the same philosophy: small composable modules, explicit JSO
 ### Metrics
 <p align="center">
   <img src="./github-metrics.svg" width="75%" alt="Metrics">
-</p>
-
-<p align="center">
-  <b>Crafting production-grade backend systems with precision architecture and automation excellence.</b>
-</p>
-
-<p align="center">
-  <a href="https://go.dev/"><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"></a>
-  <a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"></a>
-  <a href="https://flutter.dev/"><img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white"></a>
-  <a href="https://www.docker.com/"><img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"></a>
-  <a href="https://github.com/features/actions"><img alt="CI/CD" src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-000000?logo=githubactions&logoColor=white"></a>
 </p>
 
 ---
