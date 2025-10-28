@@ -4,8 +4,7 @@
 
 ---
 
-<b>Backend Engineering • Distributed Systems • Production Architecture</b>
-<b>Go • PostgreSQL • Docker • CI/CD • Flutter</b>
+Crafting production-grade backend systems with precision architecture and automation excellence.
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
