@@ -4,7 +4,14 @@
 
 ---
 
-<p><sub><b>PPK Referral/Queue</b> → triage & referral rules, printable forms, audit trails • <b>HomeService Platform</b> → Go backend + Flutter mobile • automation (n8n) • <b>production-first</b> mindset</sub></p> <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p> <p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL (pgx)</sub></p>
+<b>Healthcare Systems Engineering</b> — clinical workflow automation, referral intelligence, real-time queue management  
+<b>HomeService Platform</b> — distributed backend architecture (Go), Flutter client, event-driven automation  
+
+<sub>
+domains: healthcare routing · service operations · distributed systems · workflow automation  
+platform modules: identity & auth · secure file services · structured notes · purchasing · contractor hub · referral engine  
+engineering stack: Go (chi/pgx) · Flutter · PostgreSQL · Docker · CI/CD · JWT · RBAC · observability · automation (n8n)
+</sub>
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
