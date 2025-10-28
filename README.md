@@ -4,7 +4,7 @@
 
 ---
 
-Crafting production-grade backend systems with precision architecture and automation excellence.
+Crafting production-grade backend systems with precision architecture and automation excellence
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
