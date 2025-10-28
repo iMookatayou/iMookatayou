@@ -1,4 +1,4 @@
-<p align="left">
+<img width="1334" height="575" alt="image" src="https://github.com/user-attachments/assets/a1fdea72-96ea-4be9-b273-f65703a47d38" /><p align="left">
   <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
 </p>
 
@@ -108,6 +108,11 @@ These projects share the same philosophy: small composable modules, explicit JSO
     <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iMookatayou&show_icons=true&theme=tokyonight&hide_border=true" height="150">
+  <img src="https://streak-stats.demolab.com?user=iMookatayou&theme=tokyonight&hide_border=true" height="150">
+</p>
 
 ### Contact
 <sub>
