@@ -1,8 +1,3 @@
-<!-- 
-README for iMookatayou
-Tone: Professional + Minimal + Production-first
--->
-
 <p align="left">
   <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
 </p>
@@ -41,7 +36,6 @@ Tone: Professional + Minimal + Production-first
         <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
       </p>
       <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
-
       <h3>Engineering Focus</h3>
       <ul>
         <li>Backend Architecture (Go, Clean Architecture, modular design)</li>
