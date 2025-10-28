@@ -4,14 +4,8 @@
 
 ---
 
-<b>Healthcare Systems Engineering</b> — clinical workflow automation, referral intelligence, real-time queue management  
-<b>HomeService Platform</b> — distributed backend architecture (Go), Flutter client, event-driven automation  
-
-<sub>
-domains: healthcare routing · service operations · distributed systems · workflow automation  
-platform modules: identity & auth · secure file services · structured notes · purchasing · contractor hub · referral engine  
-engineering stack: Go (chi/pgx) · Flutter · PostgreSQL · Docker · CI/CD · JWT · RBAC · observability · automation (n8n)
-</sub>
+<b>Backend Engineering • Distributed Systems • Production Architecture</b>
+<b>Go • PostgreSQL • Docker • CI/CD • Flutter</b>
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
