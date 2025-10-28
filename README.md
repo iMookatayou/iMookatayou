@@ -4,9 +4,9 @@
 
 ---
 
-<p><sub><b>PPK Referral/Queue</b> — triage & referral rules · printable forms · audit trails  •  <b>HomeService Platform</b> — Go backend + Flutter mobile  •  automation (n8n)  •  <b>production-first</b> mindset</sub></p>
+<p><sub><b>PPK Referral/Queue</b> → triage & referral rules, printable forms, audit trails • <b>HomeService Platform</b> → Go backend + Flutter mobile • automation (n8n) • <b>production-first</b> mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
-<p><sub>Engineering: Docker · CI/CD · zero-downtime deploy · migrations guard · RBAC · JWT · logs · PostgreSQL (pgx)</sub></p>
+<p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL (pgx)</sub></p>
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
@@ -23,6 +23,11 @@
         <img src="https://skillicons.dev/icons?i=github" height="34">
         <img src="https://skillicons.dev/icons?i=vim" height="34">
       </p>
+      <p>
+        <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
+        <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
+      </p>
+      <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
     </td>
     <td valign="top" width="32%">
       <div style="display:flex; flex-direction:column; align-items:flex-end;">
@@ -33,60 +38,81 @@
   </tr>
 </table>
 
----
+### About Me
+I’m a full-stack and systems-minded developer who cares about production more than slides. I build pragmatic backends, clear data contracts, and mobile UIs that make everyday workflows simpler—especially in settings where correctness and traceability matter (hospital intake, household services, personal ops). I prefer boring, reliable infrastructure, explicit boundaries between repo/service/handler layers, and a feedback loop that includes logs, metrics, and a path to rollback.
 
-## About Me
-**Full-stack & Systems Engineer** who builds production systems end-to-end: backend, mobile, and DevOps.  
-I care about **clear domain models**, **boring-reliable infrastructure**, and **fast feedback loops**. I ship with tests, metrics, and guardrails so teams can move quickly **without** breaking patients’ workflows or users’ data.
-
-> TH: ผมเป็นนักพัฒนาที่โฟกัส “เอาเข้าระบบจริง” มากกว่าพูดสวย ๆ — โครงสร้างข้อมูลต้องชัด, โค้ดอ่านง่าย, deploy ได้ซ้ำ ๆ, และแก้เหตุการณ์จริงในโรงพยาบาล/บ้านได้ทันเวลา
-
----
-
-## What I’m Building
-- **HomeService** — Go + pgx + Clean Architecture  
-  Modules: `auth`, `users`, `notes`, `purchases`, `uploads`, `chores`, `weather`, `contractors`  
+### What I'm Building
+- **HomeService** — Go + pgx + Clean Architecture → modules: auth, users, notes, purchases, uploads, chores, weather, contractors  
   <sub>Mobile: Flutter + Riverpod + GoRouter</sub>
-- **PPK Pre-Service (Hospital)** — Next.js + Laravel + MySQL  
-  `referral-engine`, `clinic-engine`, printable forms, and audit trails for clinical flows
-- **Per-Service Management** — barrier token auth, Thai ID integrations, **gov-style UI**
+- **PPK Pre-Service (Hospital)** — Next.js + Laravel + MySQL → referral-engine, clinic-engine, printable forms
+- **Per-Service Management** — barrier token auth, Thai ID integrations, gov-style UI
+
+These projects share the same philosophy: small composable modules, explicit JSON shapes, predictable deployments, and documentation that explains how the system behaves under real-world pressure.
 
 ---
 
-## Engineering Principles
-- **Production-first**: every feature must be observable, retry-safe, and ready to roll back.  
-- **Small, composable modules**: clear interfaces (`service`, `repo`, `handler`) and testable boundaries.  
-- **Explicit data contracts**: JSON shapes, migrations guard, and versioned APIs.  
-- **Operational clarity**: metrics, logs, and playbooks over “tribal knowledge”.
+### Selected Modules (Specs)
+- **Notes** — search, pin, SQL filters, repository pattern  
+- **Purchases** — state machine <code>planned → ordered → bought → delivered</code> with clear transitions and auditability  
+- **Uploads** — file service + trigger <code>files_before_write</code> (validate name, size, type)  
+- **Referral Engine** — UTI / Cellulitis / Animal Bite rules + clinic routing (encode decisions, avoid tribal knowledge)  
+- **Contractors** — geolocation + type filter + deep link to maps/call for fast access
 
-> TH: ออกแบบให้ทีมอื่นเข้าใจง่าย แก้เหตุฉุกเฉินได้เร็ว และย้ายเครื่อง/สภาพแวดล้อมได้โดยไม่พัง
-
----
-
-## Selected Modules (Specs)
-- **Notes** — indexed search, pinning, SQL filters, repository pattern  
-- **Purchases** — a pragmatic state machine:  
-  `planned → ordered → bought → delivered`, with progress & audit  
-- **Uploads** — file service + `files_before_write` trigger (guard naming, size, type)  
-- **Referral Engine** — encoded rules for UTI / Cellulitis / Animal Bite → **clinic routing**  
-- **Contractors** — geolocation + type filters + deep links (maps/call)
+### DevOps
+- Docker multi-stage builds and images structured for cache efficiency  
+- CI/CD via GitHub Actions; consistent pipelines from local → staging → production  
+- PostgreSQL with migration guards; RBAC, JWT auth, and structured logging  
+- Zero-downtime deploys where possible, with rollbacks and observability baked in
 
 ---
 
-## DevOps & Infrastructure
-- **Docker** multi-stage builds · **CI/CD** (GitHub Actions) · **zero-downtime** deploys  
-- **PostgreSQL** with migrations guard · **RBAC** + **JWT** · structured **logging**  
-- Reproducible environments (local → staging → prod), no surprises.
+### Showcases
+- **HomeService – Go backend + Flutter mobile**  
+  Modular domain, pgx repositories, services with clear invariants, and Flutter app using Riverpod/GoRouter.
+- **PPK Form System – Next.js + Laravel**  
+  Printable forms, audit trails, and well-defined referral/clinic engines suitable for clinical workflows.
+- **Surgical-OPD Registry – Nuxt + MySQL**  
+  Clean data capture, exports, and pragmatic pages for real teams.
+- **Monitoring Dashboard – Go + PostgreSQL**  
+  Workers, scheduled jobs, and alerts that keep operators informed without noise.
 
 ---
 
-## Showcases
-- **HomeService** — Go backend + Flutter mobile (modular domain; Riverpod + GoRouter on app side)  
-- **PPK Form System** — Next.js + Laravel; printable forms; audit trails; EMR-friendly  
-- **Surgical-OPD Registry** — Nuxt + MySQL; clean data capture + export paths  
-- **Monitoring Dashboard** — Go + PostgreSQL; worker pipelines + alerting
+###  Metrics
+<div align="center">
+  <img src="./github-metrics.svg" width="75%">
+</div>
 
----
+### Education & Career Timeline
+<table align="center">
+  <tr>
+    <th width="20%">Year</th>
+    <th width="20%">Institution</th>
+    <th width="25%">Role / Status</th>
+    <th width="40%">Description</th>
+  </tr>
+  <tr>
+    <td align="center">2021 - Present</td>
+    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="50"></td>
+    <td>B.Sc. in Information Technology (Undergraduate)</td>
+    <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
+  </tr>
+  <tr>
+    <td align="center">2025 - Apprentice</td>
+    <td align="center"><img src="assets/logoppk.png" height="50"></td>
+    <td>Full-stack Developer</td>
+    <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
+  </tr>
+  <tr>
+    <td align="center">Plan to</td>
+    <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
+    <td>Master's Degree Goal</td>
+    <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
+  </tr>
+</table>
 
-## Architecture Notes
-- **Backend shape** (per module):
+### Contact
+<sub>
+Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
+Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a>
+</sub>
