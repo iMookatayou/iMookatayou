@@ -36,7 +36,6 @@
         <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
       </p>
       <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
-      <h3>Engineering Focus</h3>
     </td>
     <td valign="top" width="32%">
       <div style="display:flex; flex-direction:column; align-items:flex-end;">
