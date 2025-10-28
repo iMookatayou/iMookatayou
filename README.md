@@ -4,9 +4,9 @@
 
 ---
 
-<p><sub>PPK Referral/Queue → triage & referral rules, printable forms, audit trails • HomeService Platform → Go backend + Flutter mobile • automation(n8n) • production-first mindset</sub></p>
+<p><sub><b>PPK Referral/Queue</b> — triage & referral rules · printable forms · audit trails  •  <b>HomeService Platform</b> — Go backend + Flutter mobile  •  automation (n8n)  •  <b>production-first</b> mindset</sub></p>
 <p><sub><code>auth · users · notes · purchases · uploads · chores · weather · contractors · clinic-engine · referral-engine · automations(n8n)</code></sub></p>
-<p><sub>Engineering: Docker • CI/CD • zero-downtime deploy • migrations guard • RBAC • JWT • logs • PostgreSQL(pgx)</sub></p>
+<p><sub>Engineering: Docker · CI/CD · zero-downtime deploy · migrations guard · RBAC · JWT · logs · PostgreSQL (pgx)</sub></p>
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
@@ -33,74 +33,60 @@
   </tr>
 </table>
 
-### What I'm Building
-- **HomeService** — Go + pgx + Clean Architecture → modules: auth, users, notes, purchases, uploads, chores, weather, contractors  
+---
+
+## About Me
+**Full-stack & Systems Engineer** who builds production systems end-to-end: backend, mobile, and DevOps.  
+I care about **clear domain models**, **boring-reliable infrastructure**, and **fast feedback loops**. I ship with tests, metrics, and guardrails so teams can move quickly **without** breaking patients’ workflows or users’ data.
+
+> TH: ผมเป็นนักพัฒนาที่โฟกัส “เอาเข้าระบบจริง” มากกว่าพูดสวย ๆ — โครงสร้างข้อมูลต้องชัด, โค้ดอ่านง่าย, deploy ได้ซ้ำ ๆ, และแก้เหตุการณ์จริงในโรงพยาบาล/บ้านได้ทันเวลา
+
+---
+
+## What I’m Building
+- **HomeService** — Go + pgx + Clean Architecture  
+  Modules: `auth`, `users`, `notes`, `purchases`, `uploads`, `chores`, `weather`, `contractors`  
   <sub>Mobile: Flutter + Riverpod + GoRouter</sub>
-- **PPK Pre-Service (Hospital)** — Next.js + Laravel + MySQL → referral-engine, clinic-engine, printable forms
-- **Per-Service Management** — barrier token auth, Thai ID integrations, gov-style UI
+- **PPK Pre-Service (Hospital)** — Next.js + Laravel + MySQL  
+  `referral-engine`, `clinic-engine`, printable forms, and audit trails for clinical flows
+- **Per-Service Management** — barrier token auth, Thai ID integrations, **gov-style UI**
 
 ---
 
-### Selected Modules (Specs)
-- Notes — search, pin, SQL filters, repo pattern
-- Purchases — state machine <code>planned → ordered → bought → delivered</code>
-- Uploads — file service + trigger <code>files_before_write</code>
-- Referral Engine — UTI / Cellulitis / Animal Bite rules + clinic routing
-- Contractors — geolocation + type filter + deep link maps/call
+## Engineering Principles
+- **Production-first**: every feature must be observable, retry-safe, and ready to roll back.  
+- **Small, composable modules**: clear interfaces (`service`, `repo`, `handler`) and testable boundaries.  
+- **Explicit data contracts**: JSON shapes, migrations guard, and versioned APIs.  
+- **Operational clarity**: metrics, logs, and playbooks over “tribal knowledge”.
+
+> TH: ออกแบบให้ทีมอื่นเข้าใจง่าย แก้เหตุฉุกเฉินได้เร็ว และย้ายเครื่อง/สภาพแวดล้อมได้โดยไม่พัง
 
 ---
 
-### DevOps
-- Docker multi-stage build
-- CI/CD GitHub Actions
-- PostgreSQL + migrations guard
-- JWT · RBAC · logging
+## Selected Modules (Specs)
+- **Notes** — indexed search, pinning, SQL filters, repository pattern  
+- **Purchases** — a pragmatic state machine:  
+  `planned → ordered → bought → delivered`, with progress & audit  
+- **Uploads** — file service + `files_before_write` trigger (guard naming, size, type)  
+- **Referral Engine** — encoded rules for UTI / Cellulitis / Animal Bite → **clinic routing**  
+- **Contractors** — geolocation + type filters + deep links (maps/call)
 
 ---
 
-### Showcases
-- HomeService – Go backend + Flutter mobile
-- PPK Form System – Next.js + Laravel
-- Surgical-OPD Registry – Nuxt + MySQL
-- Monitoring Dashboard – Go + PostgreSQL
+## DevOps & Infrastructure
+- **Docker** multi-stage builds · **CI/CD** (GitHub Actions) · **zero-downtime** deploys  
+- **PostgreSQL** with migrations guard · **RBAC** + **JWT** · structured **logging**  
+- Reproducible environments (local → staging → prod), no surprises.
 
 ---
 
-###  Metrics
-<div align="center">
-  <img src="./github-metrics.svg" width="75%">
-</div>
+## Showcases
+- **HomeService** — Go backend + Flutter mobile (modular domain; Riverpod + GoRouter on app side)  
+- **PPK Form System** — Next.js + Laravel; printable forms; audit trails; EMR-friendly  
+- **Surgical-OPD Registry** — Nuxt + MySQL; clean data capture + export paths  
+- **Monitoring Dashboard** — Go + PostgreSQL; worker pipelines + alerting
 
-### Education & Career Timeline
-<table align="center">
-  <tr>
-    <th width="20%">Year</th>
-    <th width="20%">Institution</th>
-    <th width="25%">Role / Status</th>
-    <th width="40%">Description</th>
-  </tr>
-  <tr>
-    <td align="center">2021 - Present</td>
-    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="50"></td>
-    <td>B.Sc. in Information Technology (Undergraduate)</td>
-    <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
-  </tr>
-  <tr>
-    <td align="center">2025 - Apprentice</td>
-    <td align="center"><img src="assets/logoppk.png" height="50"></td>
-    <td>Full-stack Developer</td>
-    <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
-  </tr>
-  <tr>
-    <td align="center">Plan to</td>
-    <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
-    <td>Master's Degree Goal</td>
-    <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
-  </tr>
-</table>
+---
 
-### Contact
-<sub>
-Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
-Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a>
-</sub>
+## Architecture Notes
+- **Backend shape** (per module):
