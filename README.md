@@ -1,5 +1,6 @@
-<p align="left">
-  <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
+<!-- Header / Cover -->
+<p align="center">
+  <img src="assets/heading-fullstack.svg" alt="Full-Stack • Systems • Production" width="100%" style="max-width:780px;">
 </p>
 
 ---
@@ -12,16 +13,16 @@
   <tr>
     <td valign="top" width="68%">
       <h3>Tech Stack</h3>
-      <p><img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34"></p>
+      <p><img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34" alt="langs"></p>
+      <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34" alt="frontend"></p>
+      <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34" alt="backend/devops"></p>
+      <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34" alt="databases/cloud"></p>
+      <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34" alt="os/tools"></p>
       <p>
-        <img src="https://skillicons.dev/icons?i=bash" height="34">
-        <img src="https://skillicons.dev/icons?i=git" height="34">
-        <img src="https://skillicons.dev/icons?i=github" height="34">
-        <img src="https://skillicons.dev/icons?i=vim" height="34">
+        <img src="https://skillicons.dev/icons?i=bash" height="34" alt="bash">
+        <img src="https://skillicons.dev/icons?i=git" height="34" alt="git">
+        <img src="https://skillicons.dev/icons?i=github" height="34" alt="github">
+        <img src="https://skillicons.dev/icons?i=vim" height="34" alt="vim">
       </p>
       <p>
         <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
@@ -31,8 +32,8 @@
     </td>
     <td valign="top" width="32%">
       <div style="display:flex; flex-direction:column; align-items:flex-end;">
-        <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true">
+        <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; margin-bottom:8px;" alt="makima gif">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top languages">
       </div>
     </td>
   </tr>
@@ -78,41 +79,42 @@ These projects share the same philosophy: small composable modules, explicit JSO
 
 ---
 
-###  Metrics
+### Metrics
 <div align="center">
-  <img src="./github-metrics.svg" width="75%">
+  <img src="./github-metrics.svg" width="75%" alt="GitHub Metrics">
 </div>
 
-### Education & Career Timeline
-<table align="center">
-  <tr>
-    <th width="20%">Year</th>
-    <th width="20%">Institution</th>
-    <th width="25%">Role / Status</th>
-    <th width="40%">Description</th>
-  </tr>
-  <tr>
-    <td align="center">2021 - Present</td>
-    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="50"></td>
-    <td>B.Sc. in Information Technology (Undergraduate)</td>
-    <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
-  </tr>
-  <tr>
-    <td align="center">2025 - Apprentice</td>
-    <td align="center"><img src="assets/logoppk.png" height="50"></td>
-    <td>Full-stack Developer</td>
-    <td>Phrapokklao Hospital (PPK), Chanthaburi</td>
-  </tr>
-  <tr>
-    <td align="center">Plan to</td>
-    <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
-    <td>Master's Degree Goal</td>
-    <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
-  </tr>
-</table>
+---
 
-### Contact
-<sub>
-Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
-Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a>
-</sub>
+## Engineering Principles
+- **Ship fast, safely.** Migration guards, rollbacks ready, idempotent deploy steps.  
+- **Strong boundaries.** Repository / Service / Handler layers; explicit ownership per module.  
+- **Contracts first.** JSON shapes are explicit; no tribal knowledge.  
+- **Observable by default.** Structured logs, metrics, request IDs, health/debug endpoints.  
+- **Boring > shiny.** Reliability beats hype; simple wins under load.  
+- **Automate the sharp edges.** Linters, codegen, test seeds, schema drift checks.
+
+## Architecture (High Level)
+```mermaid
+graph TD
+  A[Flutter App (Riverpod, GoRouter)] -->|REST/JSON| B[Gateway/API]
+  subgraph Backend (Go)
+    B --> C[Auth]
+    B --> D[Users]
+    B --> E[Notes]
+    B --> F[Purchases]
+    B --> G[Uploads]
+    B --> H[Chores/Weather/Contractors]
+  end
+  C --> I[(PostgreSQL)]
+  D --> I
+  E --> I
+  F --> I
+  G --> I
+  H --> I
+  subgraph Ops
+    J[CI/CD • GitHub Actions] --> K[Deploy]
+    K --> B
+    L[Logs/Metrics] --> B
+    M[Workers/Schedulers] --> F
+  end
