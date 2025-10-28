@@ -1,17 +1,15 @@
-ห้ะ
-
 <p align="left">
   <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
 </p>
 
 ---
 
-<b>PPK Referral & Queue System</b> — clinical triage engine • referral automation • printable forms • audit logging  
-<b>HomeService Platform</b> — Go backend (modular) • Flutter mobile app • PostgreSQL • automation (n8n)  
+<b>PPK Health System</b> — smart triage engine · referral rules · printable case forms  
+<b>HomeService Platform</b> — household management suite · Go backend · Flutter app · PostgreSQL  
 
 <sub>
-core modules: auth · users · notes · purchases · uploads · contractors · clinic-engine · referral-engine · automation  
-engineering: Docker · CI/CD · zero-downtime deploy · migrations guard · RBAC · JWT · structured logging · observability
+modules: auth · users · purchases · notes · contractors · clinic-engine · referral-engine · file service · automation  
+stack: Go · Flutter · PostgreSQL · Docker · n8n · JWT · RBAC · pgx · CI/CD · production-first
 </sub>
 
 <table width="100%" cellspacing="0" cellpadding="0">
