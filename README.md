@@ -94,8 +94,6 @@ These projects share the same philosophy: small composable modules, explicit JSO
   <img src="./github-metrics.svg" width="75%" alt="Metrics">
 </p>
 
----
-
 ### Education & Career Timeline
 <table align="center">
   <tr>
