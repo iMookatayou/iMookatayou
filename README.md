@@ -122,8 +122,6 @@ These projects share the same philosophy: small composable modules, explicit JSO
   </tr>
 </table>
 
----
-
 ### Contact
 <sub>
 Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
