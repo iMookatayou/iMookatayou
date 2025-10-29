@@ -27,7 +27,7 @@
     </td>
     <td valign="top" width="32%">
       <div style="display:flex; flex-direction:column; align-items:flex-end;">
-        <img src="assets/makima-chainsaw-man.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
+        <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Langs">
       </div>
     </td>
