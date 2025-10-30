@@ -2,7 +2,7 @@
   <title>Hi There I'm a Full-Stack Developer</title>
   <style>
     .heading { font: 700 32px/1.2 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", "Noto Sans", Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
-    .muted   { fill: #e5e7eb; } 
+    .muted   { fill: #000000; } 
     .emerald { fill: #10b981; }  
     .white   { fill: #000000; }
   </style>
