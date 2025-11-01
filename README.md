@@ -1,38 +1,40 @@
 <p align="left">
-  <img src="assets/heading-fullstack.svg" width="140%" style="max-width:780px;">
+  <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
 </p>
 
 ---
 
-<table width="100%" cellspacing="0" cellpadding="0">
-  <tr>
-    <td valign="top" width="68%">
-      <h3>Tech Stack</h3>
-      <p><img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34"></p>
-      <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34"></p>
-      <p>
-        <img src="https://skillicons.dev/icons?i=bash" height="34">
-        <img src="https://skillicons.dev/icons?i=git" height="34">
-        <img src="https://skillicons.dev/icons?i=github" height="34">
-        <img src="https://skillicons.dev/icons?i=vim" height="34">
-      </p>
-      <p>
-        <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
-        <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
-      </p>
-      <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
-    </td>
-    <td valign="top" width="32%">
-      <div style="display:flex; flex-direction:column; align-items:flex-end;">
-        <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Langs">
-      </div>
-    </td>
-  </tr>
-</table>
+<div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+  <table width="100%" cellspacing="0" cellpadding="0" style="min-width:780px;">
+    <tr>
+      <td valign="top" width="68%">
+        <h3>Tech Stack</h3>
+        <p><img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34"></p>
+        <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34"></p>
+        <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34"></p>
+        <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34"></p>
+        <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34"></p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=bash" height="34">
+          <img src="https://skillicons.dev/icons?i=git" height="34">
+          <img src="https://skillicons.dev/icons?i=github" height="34">
+          <img src="https://skillicons.dev/icons?i=vim" height="34">
+        </p>
+        <p>
+          <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
+          <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
+        </p>
+        <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
+      </td>
+      <td valign="top" width="32%">
+        <div style="display:flex; flex-direction:column; align-items:flex-end;">
+          <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Langs">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### About Me
 I’m a full-stack and systems-minded developer who cares about production more than slides. I build pragmatic backends, clear data contracts, and mobile UIs that make everyday workflows simpler—especially in settings where correctness and traceability matter (hospital intake, household services, personal ops). I prefer boring, reliable infrastructure, explicit boundaries between repo/service/handler layers, and a feedback loop that includes logs, metrics, and a path to rollback.
