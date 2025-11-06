@@ -127,5 +127,5 @@ These projects share the same philosophy: small composable modules, explicit JSO
 ### Contact
 <sub>
 Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
-Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrung@gmail.com</a>
+Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrungtechin@gmail.com</a>
 </sub>
