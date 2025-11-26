@@ -24,11 +24,19 @@
           <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
           <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
         </p>
-        <p style="margin-top:8px;"><em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.</p>
+        <p style="margin-top:8px;">
+          <em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.
+        </p>
       </td>
       <td valign="top" width="32%">
         <div style="display:flex; flex-direction:column; align-items:flex-end;">
           <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
+          <img
+            src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true"
+            alt="Top Languages"
+            width="240"
+            style="border-radius:12px;"
+          >
         </div>
       </td>
     </tr>
@@ -126,5 +134,5 @@ These projects share the same philosophy: small composable modules, explicit JSO
 ### Contact
 <sub>
 Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
-Email: <a href="mailto:jetsribumrung@gmail.com">jetsribumrungtechin@gmail.com</a>
+Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
 </sub>
