@@ -2,8 +2,6 @@
   <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
 </p>
 
----
-
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
   <table width="100%" cellspacing="0" cellpadding="0" style="min-width:780px;">
     <tr>
