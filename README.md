@@ -66,11 +66,6 @@ These projects share the same philosophy: small composable modules, explicit JSO
 
 ---
 
-### Platform Modules
-`Identity & Access Control` • `Audit Logging` • `File Service` • `Workflow Engine` • `Event Pipeline` • `Notification Center` • `Clinic Routing Engine` • `Purchase State Machine` • `Contractor Discovery`
-
----
-
 ### Metrics
 <p align="center">
   <img src="./github-metrics.svg" width="75%" alt="Metrics">
