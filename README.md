@@ -69,31 +69,6 @@ These projects share the same philosophy: small composable modules, explicit JSO
 ### Platform Modules
 `Identity & Access Control` • `Audit Logging` • `File Service` • `Workflow Engine` • `Event Pipeline` • `Notification Center` • `Clinic Routing Engine` • `Purchase State Machine` • `Contractor Discovery`
 
-### Selected Modules (Specs)
-- **Notes** — search, pin, SQL filters, repository pattern  
-- **Purchases** — state machine <code>planned → ordered → bought → delivered</code> with clear transitions and auditability  
-- **Uploads** — file service + trigger <code>files_before_write</code> (validate name, size, type)  
-- **Referral Engine** — UTI / Cellulitis / Animal Bite rules + clinic routing (encode decisions, avoid tribal knowledge)  
-- **Contractors** — geolocation + type filter + deep link to maps/call for fast access
-
-### DevOps
-- Docker multi-stage builds and images structured for cache efficiency  
-- CI/CD via GitHub Actions; consistent pipelines from local → staging → production  
-- PostgreSQL with migration guards; RBAC, JWT auth, and structured logging  
-- Zero-downtime deploys where possible, with rollbacks and observability baked in
-
----
-
-### Showcases
-- **HomeService – Go backend + Flutter mobile**  
-  Modular domain, pgx repositories, services with clear invariants, and Flutter app using Riverpod/GoRouter.
-- **PPK Form System – Next.js + Laravel**  
-  Printable forms, audit trails, and well-defined referral/clinic engines suitable for clinical workflows.
-- **Surgical-OPD Registry – Nuxt + MySQL**  
-  Clean data capture, exports, and pragmatic pages for real teams.
-- **Monitoring Dashboard – Go + PostgreSQL**  
-  Workers, scheduled jobs, and alerts that keep operators informed without noise.
-
 ---
 
 ### Metrics
