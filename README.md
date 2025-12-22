@@ -7,40 +7,39 @@
   <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
 </p>
 
-<table width="100%" cellspacing="0" cellpadding="0">
-  <tr>
-    <td valign="top" width="68%">
-      <h3>Tech Stack</h3>
-      <p>
-        <img src="https://skillicons.dev/icons?i=ts,go,php&theme=dark" height="46">
-      </p>
-      <p>
-        <img src="https://skillicons.dev/icons?i=react,nextjs,vite&theme=dark" height="44">
-      </p>
-      <p>
-        <img src="https://skillicons.dev/icons?i=laravel,mysql&theme=dark" height="44">
-      </p>
-      <p>
-        <em>Main stack (daily use):</em>
-        <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>,
-        <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>.
-      </p>
-      <p style="margin-top:8px;">
-        <em>Focus:</em>
-        scalable backend systems, secure APIs, clean database design,
-        and high-performance web applications.
-      </p>
-    </td>
-    <td valign="top" width="32%" align="right">
-      <img src="assets/mea2.gif" width="240" style="border-radius:12px;"><br><br>
-      <img
-        src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
-        width="240"
-      >
-    </td>
-  </tr>
-</table>
-
+  <table width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td valign="top" width="68%">
+        <h3>Tech Stack</h3>
+        <p>
+          <img src="https://skillicons.dev/icons?i=ts,go,php&theme=dark" height="46">
+        </p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=react,nextjs,vite&theme=dark" height="44">
+        </p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=laravel,mysql&theme=dark" height="44">
+        </p>
+        <p>
+          <em>Main stack (daily use):</em>
+          <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>,
+          <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>.
+        </p>
+        <p style="margin-top:8px;">
+          <em>Focus:</em>
+          scalable backend systems, secure APIs, clean database design,
+          and high-performance web applications.
+        </p>
+      </td>
+      <td valign="top" width="32%" align="right">
+        <img src="assets/mea2.gif" width="240" style="border-radius:12px;"><br><br>
+        <img
+          src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
+          width="240"
+        >
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### About Me
