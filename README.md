@@ -1,26 +1,20 @@
 <p align="left">
   <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
 </p>
-
+  
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
-  <table width="100%" cellspacing="0" cellpadding="0" style="min-width:780px;">
+  <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
         <h3>Tech Stack</h3>
         <p>
-          <img src="https://skillicons.dev/icons?i=ts,go,php&perline=10" height="34">
+          <img src="https://skillicons.dev/icons?i=ts,go,php" height="36">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,vite&perline=10" height="34">
+          <img src="https://skillicons.dev/icons?i=react,nextjs,vite" height="36">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=laravel&perline=10" height="34">
-        </p>
-        <p>
-          <img src="https://skillicons.dev/icons?i=mysql&perline=10" height="34">
-        </p>
-        <p>
-          <img src="https://skillicons.dev/icons?i=git,github,linux,nginx,docker,postman&perline=10" height="34">
+          <img src="https://skillicons.dev/icons?i=laravel,mysql" height="36">
         </p>
         <p>
           <em>Main stack (daily use):</em>
@@ -33,16 +27,12 @@
           and high-performance web applications.
         </p>
       </td>
-      <td valign="top" width="32%">
-        <div style="display:flex; flex-direction:column; align-items:flex-end;">
-          <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
-          <img
-            src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
-            alt="Top Languages"
-            width="240"
-            style="border-radius:12px;"
-          >
-        </div>
+      <td valign="top" width="32%" align="right">
+        <img src="assets/mea2.gif" width="230" style="border-radius:12px;"><br><br>
+        <img
+          src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
+          width="230"
+        >
       </td>
     </tr>
   </table>
