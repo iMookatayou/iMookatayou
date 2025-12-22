@@ -24,7 +24,7 @@
         <p style="margin-top:8px;">
           <em>Focus:</em>
           scalable backend systems, secure APIs, clean database design,
-          and high-performance web applications.
+          and high performance web applications.
         </p>
       </td>
       <td valign="top" width="32%" align="right">
