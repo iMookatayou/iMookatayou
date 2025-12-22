@@ -1,17 +1,17 @@
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
   <p align="left">
-  <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
-</p>
+    <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
+  </p>
 
   <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
         <h3>Tech Stack</h3>
         <p>
-          <img src="https://skillicons.dev/icons?i=ts,go,php&theme=dark" height="46">
+          <img src="https://skillicons.dev/icons?i=ts,go,php,dart&theme=dark" height="46">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,vite&theme=dark" height="44">
+          <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter&theme=dark" height="44">
         </p>
         <p>
           <img src="https://skillicons.dev/icons?i=laravel,mysql&theme=dark" height="44">
@@ -24,7 +24,7 @@
         <p style="margin-top:8px;">
           <em>Focus:</em>
           scalable backend systems, secure APIs, clean database design,
-          and high performance web applications.
+          and high-performance web applications.
         </p>
       </td>
       <td valign="top" width="32%" align="right">
