@@ -7,30 +7,37 @@
     <tr>
       <td valign="top" width="68%">
         <h3>Tech Stack</h3>
-        <p><img src="https://skillicons.dev/icons?i=go,php,ts,js,dart,python,c,cpp&perline=14" height="34"></p>
-        <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34"></p>
-        <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34"></p>
-        <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34"></p>
-        <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34"></p>
         <p>
-          <img src="https://skillicons.dev/icons?i=bash" height="34">
-          <img src="https://skillicons.dev/icons?i=git" height="34">
-          <img src="https://skillicons.dev/icons?i=github" height="34">
-          <img src="https://skillicons.dev/icons?i=vim" height="34">
+          <img src="https://skillicons.dev/icons?i=ts,go,php&perline=10" height="34">
         </p>
         <p>
-          <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
-          <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
+          <img src="https://skillicons.dev/icons?i=react,nextjs,vite&perline=10" height="34">
+        </p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=laravel&perline=10" height="34">
+        </p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=mysql&perline=10" height="34">
+        </p>
+        <p>
+          <img src="https://skillicons.dev/icons?i=git,github,linux,nginx,docker,postman&perline=10" height="34">
+        </p>
+        <p>
+          <em>Main stack (daily use):</em>
+          <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>,
+          <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>.
         </p>
         <p style="margin-top:8px;">
-          <em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.
+          <em>Focus:</em>
+          scalable backend systems, secure APIs, clean database design,
+          and high-performance web applications.
         </p>
       </td>
       <td valign="top" width="32%">
         <div style="display:flex; flex-direction:column; align-items:flex-end;">
           <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
           <img
-            src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true"
+            src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
             alt="Top Languages"
             width="240"
             style="border-radius:12px;"
