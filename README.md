@@ -1,7 +1,3 @@
-<p align="left">
-  <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
-</p>
-  
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
   <p align="left">
   <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
