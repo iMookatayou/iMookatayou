@@ -11,13 +11,6 @@
         <p><img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,flutter,tailwind,vite&perline=14" height="34"></p>
         <p><img src="https://skillicons.dev/icons?i=laravel,prisma,nodejs,express,nginx,docker,githubactions,jenkins&perline=14" height="34"></p>
         <p><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws&perline=14" height="34"></p>
-        <p><img src="https://skillicons.dev/icons?i=linux,ubuntu,arch,arduino,postman&perline=14" height="34"></p>
-        <p>
-          <img src="https://skillicons.dev/icons?i=bash" height="34">
-          <img src="https://skillicons.dev/icons?i=git" height="34">
-          <img src="https://skillicons.dev/icons?i=github" height="34">
-          <img src="https://skillicons.dev/icons?i=vim" height="34">
-        </p>
         <p>
           <em>Strong languages (daily use):</em> <b>PHP</b>, <b>TypeScript</b>, <b>JavaScript</b>, <b>Go (Golang)</b>.<br>
           <em>Also experienced with:</em> Dart/Flutter, Python, C/C++, Node.js/Express, Laravel, React/Next.js, Vue/Nuxt, Tailwind, PostgreSQL, MySQL, Redis, Firebase, AWS.
@@ -25,6 +18,17 @@
         <p style="margin-top:8px;">
           <em>Focus:</em> reliable backends, clean data models, maintainable APIs, and mobile apps that respect users’ time.
         </p>
+      </td>
+      <td valign="top" width="32%">
+        <div style="display:flex; flex-direction:column; align-items:flex-end;">
+          <img src="assets/mea2.gif" width="240" style="border-radius:12px; margin-bottom:8px;">
+          <img
+            src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=8&theme=transparent&hide_border=true"
+            alt="Top Languages"
+            width="240"
+            style="border-radius:12px;"
+          >
+        </div>
       </td>
     </tr>
   </table>
