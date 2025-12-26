@@ -91,7 +91,7 @@ These projects share the same philosophy: small composable modules, explicit JSO
   <tr>
     <td align="center">Plan to</td>
     <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
-    <td>Master's Degree Goal</td>
+    <td>Master of Engineering (Computer Engineering)</td>
     <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
   </tr>
     <tr>
