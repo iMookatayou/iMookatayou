@@ -95,17 +95,21 @@ These projects share the same philosophy: small composable modules, explicit JSO
     <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
   </tr>
     <tr>
-    <td align="center">2021 - Present</td>
-    <td align="center"><img src="assets/Rambhai_Barni_Rajabhat_University_Emblem.png" height="50"></td>
-    <td>B.Sc. in Information Technology (Undergraduate)</td>
-    <td>Rambhai Barni Rajabhat University (RBRU), Faculty of Science and Technology</td>
-  </tr>
+      <td align="center">Plan to</td>
+      <td align="center">
+        <img src="assets/cmu_logo.png" height="50">
+      </td>
+      <td>Master of Engineering (Computer Engineering)</td>
+      <td>Chiang Mai University (CMU), Faculty of Engineering</td>
+    </tr>
     <tr>
-    <td align="center">Plan to</td>
-    <td align="center"><img src="assets/kmitllogo.png" height="50"></td>
-    <td>Master's Degree Goal</td>
-    <td>King Mongkut’s Institute of Technology Ladkrabang (KMITL), School of Engineering</td>
-  </tr>
+      <td align="center">Plan to</td>
+      <td align="center">
+        <img src="assets/uts_logo.png" height="50">
+      </td>
+      <td>Master of Engineering (Computer Engineering)</td>
+      <td>University of Technology Sydney (UTS), Faculty of Engineering and Information Technology</td>
+    </tr>
 </table>
 
 ### Contact
