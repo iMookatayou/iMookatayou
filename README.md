@@ -103,9 +103,7 @@
     </tr>
 </table>
 
-### Contact
-
 <sub>
-Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
+Portfolio: <a href="https://portfoliotechindev.vercel.app">webport/a> ·  
 Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
 </sub>
