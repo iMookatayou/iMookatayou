@@ -1,6 +1,6 @@
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
   <p align="left">
-    <img src="assets/heading-fullstack.svg" width="100%" style="max-width:780px; display:block;">
+    <img src="assets/heading-techin.svg" width="100%" style="max-width:780px; display:block;">
   </p>
 
   <table width="100%" cellspacing="0" cellpadding="0">
@@ -28,7 +28,7 @@
         </p>
       </td>
       <td valign="top" width="32%" align="right">
-        <img src="assets/mea2.gif" width="240" style="border-radius:12px;"><br><br>
+        <img src="assets/frieren-cry-frieren-beyond-journey's-end.gif" width="240" style="border-radius:12px;"><br><br>
         <img
           src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iMookatayou&layout=compact&langs_count=6&theme=transparent&hide_border=true"
           width="240"
@@ -37,17 +37,6 @@
     </tr>
   </table>
 </div>
-
-### About Me
-I’m a full-stack and systems-minded developer who cares about production more than slides. I build pragmatic backends, clear data contracts, and mobile UIs that make everyday workflows simpler—especially in settings where correctness and traceability matter (hospital intake, household services, personal ops). I prefer boring, reliable infrastructure, explicit boundaries between repo/service/handler layers, and a feedback loop that includes logs, metrics, and a path to rollback.
-
-### What I'm Building
-- **HomeService** — Go + pgx + Clean Architecture → modules: auth, users, notes, purchases, uploads, chores, weather, contractors  
-  <sub>Mobile: Flutter + Riverpod + GoRouter</sub>
-- **PPK Pre-Service (Hospital)** — Next.js + Laravel + MySQL → referral-engine, clinic-engine, printable forms
-- **Per-Service Management** — barrier token auth, Thai ID integrations, gov-style UI
-
-These projects share the same philosophy: small composable modules, explicit JSON shapes, predictable deployments, and documentation that explains how the system behaves under real-world pressure.
 
 <p align="center">
   <b>Crafting production-grade backend systems with precision architecture and automation excellence.</b>
@@ -64,11 +53,13 @@ These projects share the same philosophy: small composable modules, explicit JSO
 ---
 
 ### Metrics
+
 <p align="center">
   <img src="./github-metrics.svg" width="75%" alt="Metrics">
 </p>
 
 ### Education & Career Timeline
+
 <table align="center">
   <tr>
     <th width="20%">Year</th>
@@ -113,6 +104,7 @@ These projects share the same philosophy: small composable modules, explicit JSO
 </table>
 
 ### Contact
+
 <sub>
 Portfolio: <a href="https://imookatayou.github.io">imookatayou.github.io</a> ·  
 Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
