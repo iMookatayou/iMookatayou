@@ -2,7 +2,6 @@
   <p align="left">
     <img src="assets/heading-techin.svg" width="100%" style="max-width:780px; display:block;">
   </p>
-
   <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
@@ -14,12 +13,12 @@
           <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter&theme=dark" height="44">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=laravel,mysql&theme=dark" height="44">
+          <img src="https://skillicons.dev/icons?i=laravel,mysql,mongodb&theme=dark" height="44">
         </p>
         <p>
           <em>Main stack (daily use):</em>
           <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>,
-          <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>.
+          <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>, <b>MongoDB</b>.
         </p>
         <p style="margin-top:8px;">
           <em>Focus:</em>
@@ -37,11 +36,9 @@
     </tr>
   </table>
 </div>
-
 <p align="center">
   <b>Crafting production-grade backend systems with precision architecture and automation excellence.</b>
 </p>
-
 <p align="center">
   <a href="https://go.dev/"><img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"></a>
   <a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"></a>
@@ -104,6 +101,6 @@
 </table>
 
 <sub>
-Portfolio: <a href="https://portfoliotechindev.vercel.app">webport/a> ·  
+Webport: <a href="https://portfoliotechindev.vercel.app">portfoliotechindev</a> ·  
 Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
 </sub>
