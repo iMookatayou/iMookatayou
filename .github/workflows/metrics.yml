@@ -46,7 +46,8 @@ jobs:
           plugin_isometric_duration: full-year
           output: action
 
-      - run: |
+      - name: Animate Text (Enhanced Regex)
+        run: |
           python3 << 'EOF'
           from pathlib import Path
           import re
@@ -75,15 +76,16 @@ jobs:
               if "emeraldRgbGradient" not in svg:
                   svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
 
-              svg = svg.replace(
-                  'fill="currentColor">Joined GitHub',
-                  'fill="url(#emeraldRgbGradient)" font-weight="800">Joined GitHub'
+              svg = re.sub(
+                  r'fill="currentColor">(\s*Joined\s+GitHub\s*)',
+                  r'fill="url(#emeraldRgbGradient)" font-weight="800">\1',
+                  svg, flags=re.IGNORECASE
               )
 
               svg = re.sub(
-                  r'fill="currentColor">([^<]*1\s*years?[^<]*)<',
+                  r'fill="currentColor">(\s*[^<]*1\s*years?(\s+ago)?\s*)<',
                   r'fill="url(#emeraldRgbGradient)" font-weight="800">\1<',
-                  svg
+                  svg, flags=re.IGNORECASE
               )
 
               path.write_text(svg)
@@ -91,6 +93,6 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "feat: update metrics with emerald RGB effect"
+          commit_message: "feat: apply emerald RGB to joined text"
           file_pattern: "*.svg"
           push_options: "--force"
