@@ -88,13 +88,16 @@ jobs:
           </defs>
           """
 
-          if "joinedGradient" not in svg:
-              svg = svg.replace("<svg", gradient + "\n<svg", 1)
-
           svg = re.sub(
-              r'fill="currentColor">Joined GitHub',
-              'fill="url(#joinedGradient)" font-weight="700">Joined GitHub',
-              svg
+              r'(<svg[^>]*>)',
+              r'\\1\n' + gradient,
+              svg,
+              count=1
+          )
+
+          svg = svg.replace(
+              'fill="currentColor">Joined GitHub',
+              'fill="url(#joinedGradient)" font-weight="700">Joined GitHub'
           )
 
           path.write_text(svg)
@@ -118,10 +121,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git pull --rebase origin dev
+
           git add github-metrics.svg metrics-isometric.svg
 
           git commit -m "chore: update github metrics [skip ci]" || echo "No changes"
-
-          git pull --rebase origin dev
 
           git push origin dev
