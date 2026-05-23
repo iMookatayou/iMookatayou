@@ -1,35 +1,55 @@
-name: Generate GitHub Metrics
+      - name: Animate Joined GitHub text
+        run: |
+          python3 << 'EOF'
+          from pathlib import Path
+          import re
 
-on:
-  workflow_dispatch: {}
-  schedule:
-    - cron: "23 3 * * *"  
+          path = Path("github-metrics.svg")
+          svg = path.read_text()
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Full metrics
-        uses: lowlighter/metrics@latest
-        with:
-          user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Bangkok
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          gradient = '''
+          <defs>
+            <linearGradient id="joinedGradient" x1="0%" y1="0%" x2="200%" y2="0%">
+              <stop offset="0%" stop-color="#7dd3fc">
+                <animate attributeName="stop-color"
+                  values="#7dd3fc;#c4b5fd;#86efac;#7dd3fc"
+                  dur="6s"
+                  repeatCount="indefinite"/>
+              </stop>
+              <stop offset="50%" stop-color="#c4b5fd">
+                <animate attributeName="stop-color"
+                  values="#c4b5fd;#86efac;#7dd3fc;#c4b5fd"
+                  dur="6s"
+                  repeatCount="indefinite"/>
+              </stop>
+              <stop offset="100%" stop-color="#86efac">
+                <animate attributeName="stop-color"
+                  values="#86efac;#7dd3fc;#c4b5fd;#86efac"
+                  dur="6s"
+                  repeatCount="indefinite"/>
+              </stop>
 
-      - name: Isometric contributions (3D)
-        uses: lowlighter/metrics@latest
-        with:
-          user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics-isometric.svg
-          base: ""
-          plugin_isometric: yes
-          plugin_isometric_duration: full-year
+              <animateTransform
+                attributeName="gradientTransform"
+                type="translate"
+                from="-1 0"
+                to="1 0"
+                dur="5s"
+                repeatCount="indefinite"/>
+            </linearGradient>
+          </defs>
+          '''
+
+          svg = svg.replace("<svg", gradient + "\n<svg", 1)
+
+          svg = re.sub(
+              r'fill="currentColor">Joined GitHub .*?</text>',
+              lambda m: m.group(0).replace(
+                  'fill="currentColor"',
+                  'fill="url(#joinedGradient)" font-weight="600"'
+              ),
+              svg
+          )
+
+          path.write_text(svg)
+          EOF
