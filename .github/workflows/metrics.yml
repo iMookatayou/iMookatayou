@@ -15,11 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: |
-          curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
-        shell: bash
-
-      - uses: lowlighter/metrics@latest
+      - name: Full metrics
+        uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
           token: ${{ secrets.METRICS_TOKEN }}
@@ -41,27 +38,30 @@ jobs:
 
           file_path = "github-metrics.svg"
           if os.path.exists(file_path):
-              svg = Path(file_path).read_text()
+              path = Path(file_path)
+              svg = path.read_text()
               
-              gradient = '''
-              <defs>
-                <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#065F46" />
-                  <stop offset="50%" stop-color="#34D399" />
-                  <stop offset="100%" stop-color="#065F46" />
-                  <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite" />
-                </linearGradient>
-              </defs>
-              '''
-              
+              # 1. แทรก Gradient เฉพาะถ้ายังไม่มี
               if "emeraldRgbGradient" not in svg:
-                  svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
+                  gradient = '''<defs><linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#065F46" /><stop offset="50%" stop-color="#34D399" /><stop offset="100%" stop-color="#065F46" /><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite" /></linearGradient></defs>'''
+                  svg = svg.replace("</svg>", f"{gradient}</svg>")
 
-              # เจาะจงหา text element ที่มีคำว่า Joined GitHub และ 1 year
-              svg = re.sub(r'(Joined\s+GitHub)', r'<tspan fill="url(#emeraldRgbGradient)" font-weight="800">\1</tspan>', svg)
-              svg = re.sub(r'([^<]*1\s*years?(\s+ago)?)', r'<tspan fill="url(#emeraldRgbGradient)" font-weight="800">\1</tspan>', svg)
-              
-              Path(file_path).write_text(svg)
+              # 2. ค้นหาบรรทัดที่มี Joined GitHub แล้วเปลี่ยน fill ที่ tag <text> นั้นเลย
+              # ใช้ regex ดึงกลุ่มของ <text ...>Joined GitHub</text>
+              svg = re.sub(
+                  r'(<text[^>]*fill=")[^"]*("[^>]*>\s*Joined\s+GitHub)',
+                  r'\1url(#emeraldRgbGradient)\2',
+                  svg
+              )
+
+              # 3. ค้นหาบรรทัดที่มี 1 year / 1 years
+              svg = re.sub(
+                  r'(<text[^>]*fill=")[^"]*("[^>]*>\s*[^<]*1\s*years?(\s+ago)?\s*)',
+                  r'\1url(#emeraldRgbGradient)\2',
+                  svg
+              )
+
+              path.write_text(svg)
           EOF
 
       - name: Final Push
@@ -69,5 +69,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-metrics.svg
-          git commit -m "feat: emerald rgb flow" || exit 0
+          git commit -m "feat: fix emerald rgb rendering" || exit 0
           git push origin HEAD --force
