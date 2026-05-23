@@ -15,10 +15,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: |
-          curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
-        shell: bash
-
       - uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
@@ -29,70 +25,45 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Bangkok
           plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           output: action
 
-      - uses: lowlighter/metrics@latest
-        with:
-          user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics-isometric.svg
-          base: ""
-          plugin_isometric: yes
-          plugin_isometric_duration: full-year
-          output: action
-
-      - name: Animate Text (Enhanced Regex)
+      - name: Emerald RGB Injection
         run: |
           python3 << 'EOF'
           from pathlib import Path
           import re
           import os
 
-          if os.path.exists("github-metrics.svg"):
-              path = Path("github-metrics.svg")
+          file_path = "github-metrics.svg"
+          if os.path.exists(file_path):
+              path = Path(file_path)
               svg = path.read_text()
-
-              gradient = '''
-              <defs>
-                <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#065F46" />
-                  <stop offset="50%" stop-color="#34D399" />
-                  <stop offset="100%" stop-color="#065F46" />
-                  <animateTransform 
-                    attributeName="gradientTransform" 
-                    type="translate" 
-                    from="-1 0" to="1 0" 
-                    dur="3s" 
-                    repeatCount="indefinite" />
-                </linearGradient>
-              </defs>
-              '''
-
+              
               if "emeraldRgbGradient" not in svg:
-                  svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
-
+                  gradient = '''<defs><linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#065F46" /><stop offset="50%" stop-color="#34D399" /><stop offset="100%" stop-color="#065F46" /><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite" /></linearGradient></defs>'''
+                  svg = svg.replace("</svg>", f"{gradient}</svg>")
               svg = re.sub(
-                  r'fill="currentColor">(\s*Joined\s+GitHub\s*)',
-                  r'fill="url(#emeraldRgbGradient)" font-weight="800">\1',
-                  svg, flags=re.IGNORECASE
+                  r'(<text[^>]*fill=")[^"]*("[^>]*>\s*Joined\s+GitHub)',
+                  r'\1url(#emeraldRgbGradient)\2',
+                  svg
               )
 
+              # 3. ค้นหาบรรทัดที่มี 1 year / 1 years
               svg = re.sub(
-                  r'fill="currentColor">(\s*[^<]*1\s*years?(\s+ago)?\s*)<',
-                  r'fill="url(#emeraldRgbGradient)" font-weight="800">\1<',
-                  svg, flags=re.IGNORECASE
+                  r'(<text[^>]*fill=")[^"]*("[^>]*>\s*[^<]*1\s*years?(\s+ago)?\s*)',
+                  r'\1url(#emeraldRgbGradient)\2',
+                  svg
               )
 
               path.write_text(svg)
           EOF
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "feat: apply emerald RGB to joined text"
-          file_pattern: "*.svg"
-          push_options: "--force"
+      - name: Final Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git commit -m "feat: fix emerald rgb rendering" || exit 0
+          git push origin HEAD --force
