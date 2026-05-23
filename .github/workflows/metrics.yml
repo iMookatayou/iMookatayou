@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Check token
         run: |
@@ -57,7 +59,7 @@ jobs:
 
           path = Path("github-metrics.svg")
           if not path.exists():
-              exit(1)
+              exit(0)
 
           svg = path.read_text()
 
@@ -99,3 +101,4 @@ jobs:
         with:
           commit_message: "feat: add emerald RGB effect"
           file_pattern: "*.svg"
+          push_options: '--force'
