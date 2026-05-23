@@ -11,16 +11,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check token (should show your login)
-        run: |
+      - run: |
           curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
         shell: bash
 
-      - name: Full metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
           token: ${{ secrets.METRICS_TOKEN }}
@@ -36,8 +35,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           output: action
 
-      - name: Isometric contributions (3D)
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
           token: ${{ secrets.METRICS_TOKEN }}
@@ -48,59 +46,51 @@ jobs:
           plugin_isometric_duration: full-year
           output: action
 
-      - name: Animate Joined GitHub & 1 Year text
-        run: |
+      - run: |
           python3 << 'EOF'
           from pathlib import Path
           import re
           import os
 
-          if not os.path.exists("github-metrics.svg"):
-              print("❌ Error: github-metrics.svg not found in workspace!")
-              exit(1)
+          if os.path.exists("github-metrics.svg"):
+              path = Path("github-metrics.svg")
+              svg = path.read_text()
 
-          path = Path("github-metrics.svg")
-          if not path.exists():
-              exit(0)
+              gradient = '''
+              <defs>
+                <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#065F46" />
+                  <stop offset="50%" stop-color="#34D399" />
+                  <stop offset="100%" stop-color="#065F46" />
+                  <animateTransform 
+                    attributeName="gradientTransform" 
+                    type="translate" 
+                    from="-1 0" to="1 0" 
+                    dur="3s" 
+                    repeatCount="indefinite" />
+                </linearGradient>
+              </defs>
+              '''
 
-          svg = path.read_text()
+              if "emeraldRgbGradient" not in svg:
+                  svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
 
-          gradient = '''
-          <defs>
-            <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#065F46" />
-              <stop offset="50%" stop-color="#34D399" />
-              <stop offset="100%" stop-color="#065F46" />
-              <animateTransform 
-                attributeName="gradientTransform" 
-                type="translate" 
-                from="-1 0" to="1 0" 
-                dur="3s" 
-                repeatCount="indefinite" />
-            </linearGradient>
-          </defs>
-          '''
+              svg = svg.replace(
+                  'fill="currentColor">Joined GitHub',
+                  'fill="url(#emeraldRgbGradient)" font-weight="800">Joined GitHub'
+              )
 
-          if "emeraldRgbGradient" not in svg:
-              svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
+              svg = re.sub(
+                  r'fill="currentColor">([^<]*1\s*years?[^<]*)<',
+                  r'fill="url(#emeraldRgbGradient)" font-weight="800">\1<',
+                  svg
+              )
 
-          svg = svg.replace(
-              'fill="currentColor">Joined GitHub',
-              'fill="url(#emeraldRgbGradient)" font-weight="800">Joined GitHub'
-          )
-
-          svg = re.sub(
-              r'fill="currentColor">([^<]*1\s*years?[^<]*)<',
-              r'fill="url(#emeraldRgbGradient)" font-weight="800">\1<',
-              svg
-          )
-
-          path.write_text(svg)
-          print("✅ Successfully added Emerald RGB effect to text!")
+              path.write_text(svg)
           EOF
 
-      - name: Commit & Push updated SVG
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "feat: update metrics with emerald RGB effect"
           file_pattern: "*.svg"
+          push_options: "--force"
