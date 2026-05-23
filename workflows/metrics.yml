@@ -1,117 +1,54 @@
-name: Generate GitHub Metrics
+- name: Animate Joined GitHub text
+  run: |
+    python3 << 'EOF'
+    from pathlib import Path
 
-on:
-  workflow_dispatch: {}
-  schedule:
-    - cron: "23 3 * * *"
+    path = Path("github-metrics.svg")
+    svg = path.read_text()
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    gradient = '''
+    <defs>
+      <linearGradient id="joinedGradient" x1="0%" y1="0%" x2="200%" y2="0%">
 
-    permissions:
-      contents: write
+        <stop offset="0%" stop-color="#10B981">
+          <animate attributeName="stop-color"
+            values="#10B981;#34D399;#06B6D4;#A7F3D0;#10B981"
+            dur="10s"
+            repeatCount="indefinite"/>
+        </stop>
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+        <stop offset="50%" stop-color="#34D399">
+          <animate attributeName="stop-color"
+            values="#34D399;#06B6D4;#A7F3D0;#10B981;#34D399"
+            dur="10s"
+            repeatCount="indefinite"/>
+        </stop>
 
-      - name: Generate full metrics
-        uses: lowlighter/metrics@latest
-        with:
-          user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+        <stop offset="100%" stop-color="#A7F3D0">
+          <animate attributeName="stop-color"
+            values="#A7F3D0;#10B981;#34D399;#06B6D4;#A7F3D0"
+            dur="10s"
+            repeatCount="indefinite"/>
+        </stop>
 
-          filename: github-metrics.svg
-          template: classic
-          base: header, activity, community, repositories, metadata
+        <animateTransform
+          attributeName="gradientTransform"
+          type="translate"
+          from="-1 0"
+          to="1 0"
+          dur="8s"
+          repeatCount="indefinite"/>
+      </linearGradient>
+    </defs>
+    '''
 
-          config_timezone: Asia/Bangkok
+    if "<defs>" not in svg:
+        svg = svg.replace("<svg", gradient + "\n<svg", 1)
 
-          color_github: 10B981
-          color_title: 34D399
-          color_text: c9d1d9
-          color_subtitle: 6EE7B7
-          color_border: 0d1117
-          color_background: 0d1117
+    svg = svg.replace(
+        "Joined GitHub",
+        "<tspan fill='url(#joinedGradient)'>Joined GitHub</tspan>"
+    )
 
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css
-
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Animate Joined GitHub text
-        run: |
-          python3 << 'EOF'
-          from pathlib import Path
-          import re
-
-          path = Path("github-metrics.svg")
-          svg = path.read_text()
-
-          gradient = """
-          <defs>
-            <linearGradient id="joinedGradient" x1="0%" y1="0%" x2="200%" y2="0%">
-
-              <stop offset="0%" stop-color="#10B981">
-                <animate attributeName="stop-color"
-                  values="#10B981;#34D399;#6EE7B7;#059669;#10B981"
-                  dur="8s"
-                  repeatCount="indefinite"/>
-              </stop>
-
-              <stop offset="50%" stop-color="#34D399">
-                <animate attributeName="stop-color"
-                  values="#34D399;#6EE7B7;#059669;#10B981;#34D399"
-                  dur="8s"
-                  repeatCount="indefinite"/>
-              </stop>
-
-              <stop offset="100%" stop-color="#6EE7B7">
-                <animate attributeName="stop-color"
-                  values="#6EE7B7;#059669;#10B981;#34D399;#6EE7B7"
-                  dur="8s"
-                  repeatCount="indefinite"/>
-              </stop>
-
-              <animateTransform
-                attributeName="gradientTransform"
-                type="translate"
-                from="-1 0"
-                to="1 0"
-                dur="6s"
-                repeatCount="indefinite"/>
-            </linearGradient>
-          </defs>
-          """
-
-          svg = re.sub(
-              r'(<svg[^>]*>)',
-              r'\\1\n' + gradient,
-              svg,
-              count=1
-          )
-
-          svg = svg.replace(
-              'fill="currentColor">Joined GitHub',
-              'fill="url(#joinedGradient)" font-weight="700">Joined GitHub'
-          )
-
-          path.write_text(svg)
-          EOF
-
-      - name: Generate isometric metrics
-        uses: lowlighter/metrics@latest
-        with:
-          user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          filename: metrics-isometric.svg
-          base: ""
-
-          plugin_isometric: yes
-          plugin_isometric_duration: full-year
+    path.write_text(svg)
+    EOF
