@@ -51,6 +51,7 @@ jobs:
                   svg
               )
 
+              # 3. ค้นหาบรรทัดที่มี 1 year / 1 years
               svg = re.sub(
                   r'(<text[^>]*fill=")[^"]*("[^>]*>\s*[^<]*1\s*years?(\s+ago)?\s*)',
                   r'\1url(#emeraldRgbGradient)\2',
