@@ -29,6 +29,13 @@ jobs:
 
           config_timezone: Asia/Bangkok
 
+          color_github: 10B981
+          color_title: 34D399
+          color_text: c9d1d9
+          color_subtitle: 6EE7B7
+          color_border: 0d1117
+          color_background: 0d1117
+
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css
