@@ -4,7 +4,7 @@
   </p>
 
 <p align="center">
-  <img src="./github-metrics.svg" width="75%" alt="Metrics">
+  <img src="./github-metrics.svg?v=2" width="75%" alt="Metrics">
 </p>
 
   <table width="100%" cellspacing="0" cellpadding="0">
