@@ -3,13 +3,13 @@ name: Generate GitHub Metrics
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "23 3 * * *"  
+    - cron: "23 3 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  
+      contents: write
     steps:
       - name: Check token (should show your login)
         run: |
@@ -20,8 +20,8 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
-          token: ${{ secrets.METRICS_TOKEN }}          
-          committer_token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
@@ -42,3 +42,50 @@ jobs:
           base: ""
           plugin_isometric: yes
           plugin_isometric_duration: full-year
+
+      - name: Animate Joined GitHub & 1 Year text (Emerald RGB Flow)
+        run: |
+          python3 << 'EOF'
+          from pathlib import Path
+          import re
+
+          path = Path("github-metrics.svg")
+          svg = path.read_text()
+
+          gradient = '''
+          <defs>
+            <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#065F46" />
+              <stop offset="50%" stop-color="#34D399" />
+              <stop offset="100%" stop-color="#065F46" />
+              <animateTransform 
+                attributeName="gradientTransform" 
+                type="translate" 
+                from="-1 0" to="1 0" 
+                dur="3s" 
+                repeatCount="indefinite" />
+            </linearGradient>
+          </defs>
+          '''
+
+          if "emeraldRgbGradient" not in svg:
+              svg = re.sub(
+                  r'(<svg[^>]*>)',
+                  r'\1\n' + gradient,
+                  svg,
+                  count=1
+              )
+
+          svg = svg.replace(
+              'fill="currentColor">Joined GitHub',
+              'fill="url(#emeraldRgbGradient)" font-weight="800">Joined GitHub'
+          )
+
+          svg = re.sub(
+              r'fill="currentColor">([^<]*1\s*years?[^<]*)<',
+              r'fill="url(#emeraldRgbGradient)" font-weight="800">\1<',
+              svg
+          )
+
+          path.write_text(svg)
+          EOF
