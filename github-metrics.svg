@@ -1,4 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="804" class="">
+
+<defs>
+  <linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#065F46" />
+    <stop offset="50%" stop-color="#34D399" />
+    <stop offset="100%" stop-color="#065F46" />
+    <animateTransform 
+      attributeName="gradientTransform" 
+      type="translate" 
+      from="-1 0" to="1 0" 
+      dur="3s" 
+      repeatCount="indefinite" />
+  </linearGradient>
+</defs>
+
     <defs>
         <style/>
     </defs>
