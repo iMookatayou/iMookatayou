@@ -99,13 +99,6 @@
     </tr>
 </table>
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Building+scalable+backend+systems...;Designing+secure+high-performance+APIs...;Crafting+clean+architecture+with+automation..."
-    alt="Typing SVG"
-  />
-</p>
-
 <sub>
 Webport: <a href="https://portfoliotechindev.vercel.app">portfoliotechindev</a> ·  
 Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
