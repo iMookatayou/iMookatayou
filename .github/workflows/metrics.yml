@@ -11,7 +11,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Check token (should show your login)
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check token
         run: |
           curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
         shell: bash
@@ -31,6 +34,7 @@ jobs:
           plugin_languages_ignored: html, css
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          output: action
 
       - name: Isometric contributions (3D)
         uses: lowlighter/metrics@latest
@@ -42,14 +46,19 @@ jobs:
           base: ""
           plugin_isometric: yes
           plugin_isometric_duration: full-year
+          output: action
 
-      - name: Animate Joined GitHub & 1 Year text (Emerald RGB Flow)
+      - name: Animate Joined GitHub & 1 Year text
         run: |
           python3 << 'EOF'
           from pathlib import Path
           import re
+          import os
 
           path = Path("github-metrics.svg")
+          if not path.exists():
+              exit(1)
+
           svg = path.read_text()
 
           gradient = '''
@@ -69,12 +78,7 @@ jobs:
           '''
 
           if "emeraldRgbGradient" not in svg:
-              svg = re.sub(
-                  r'(<svg[^>]*>)',
-                  r'\1\n' + gradient,
-                  svg,
-                  count=1
-              )
+              svg = re.sub(r'(<svg[^>]*>)', r'\1\n' + gradient, svg, count=1)
 
           svg = svg.replace(
               'fill="currentColor">Joined GitHub',
@@ -89,3 +93,9 @@ jobs:
 
           path.write_text(svg)
           EOF
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: add emerald RGB effect"
+          file_pattern: "*.svg"
