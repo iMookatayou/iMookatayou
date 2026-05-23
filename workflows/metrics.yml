@@ -2,52 +2,50 @@
   run: |
     python3 << 'EOF'
     from pathlib import Path
+    import re
 
     path = Path("github-metrics.svg")
     svg = path.read_text()
 
-    gradient = '''
+    gradient = """
     <defs>
-      <linearGradient id="joinedGradient" x1="0%" y1="0%" x2="200%" y2="0%">
-
+      <linearGradient id="joinedGradient" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#10B981">
           <animate attributeName="stop-color"
-            values="#10B981;#34D399;#06B6D4;#A7F3D0;#10B981"
-            dur="10s"
+            values="#10B981;#34D399;#6EE7B7;#059669;#10B981"
+            dur="8s"
             repeatCount="indefinite"/>
         </stop>
 
         <stop offset="50%" stop-color="#34D399">
           <animate attributeName="stop-color"
-            values="#34D399;#06B6D4;#A7F3D0;#10B981;#34D399"
-            dur="10s"
+            values="#34D399;#6EE7B7;#059669;#10B981;#34D399"
+            dur="8s"
             repeatCount="indefinite"/>
         </stop>
 
-        <stop offset="100%" stop-color="#A7F3D0">
+        <stop offset="100%" stop-color="#6EE7B7">
           <animate attributeName="stop-color"
-            values="#A7F3D0;#10B981;#34D399;#06B6D4;#A7F3D0"
-            dur="10s"
+            values="#6EE7B7;#059669;#10B981;#34D399;#6EE7B7"
+            dur="8s"
             repeatCount="indefinite"/>
         </stop>
-
-        <animateTransform
-          attributeName="gradientTransform"
-          type="translate"
-          from="-1 0"
-          to="1 0"
-          dur="8s"
-          repeatCount="indefinite"/>
       </linearGradient>
     </defs>
-    '''
+    """
 
-    if "<defs>" not in svg:
-        svg = svg.replace("<svg", gradient + "\n<svg", 1)
+    # inject defs safely after <svg ...>
+    svg = re.sub(
+        r'(<svg[^>]*>)',
+        r'\\1\n' + gradient,
+        svg,
+        count=1
+    )
 
+    # replace Joined GitHub text color
     svg = svg.replace(
-        "Joined GitHub",
-        "<tspan fill='url(#joinedGradient)'>Joined GitHub</tspan>"
+        'fill="currentColor">Joined GitHub',
+        'fill="url(#joinedGradient)" font-weight="700">Joined GitHub'
     )
 
     path.write_text(svg)
