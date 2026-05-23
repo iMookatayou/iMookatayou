@@ -123,6 +123,14 @@ jobs:
 
           git add github-metrics.svg metrics-isometric.svg
 
+          git stash
+
+          git pull --rebase origin dev
+
+          git stash pop || true
+
+          git add github-metrics.svg metrics-isometric.svg
+
           git commit -m "chore: update github metrics [skip ci]" || echo "No changes"
 
-          git push --force-with-lease origin HEAD:dev
+          git push origin dev
