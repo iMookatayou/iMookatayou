@@ -13,10 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Check token
+      - name: Check token (should show your login)
         run: |
           curl -s -H "Authorization: Bearer ${{ secrets.METRICS_TOKEN }}" https://api.github.com/user | jq -r '.login,.type'
         shell: bash
@@ -57,6 +55,10 @@ jobs:
           import re
           import os
 
+          if not os.path.exists("github-metrics.svg"):
+              print("❌ Error: github-metrics.svg not found in workspace!")
+              exit(1)
+
           path = Path("github-metrics.svg")
           if not path.exists():
               exit(0)
@@ -94,11 +96,11 @@ jobs:
           )
 
           path.write_text(svg)
+          print("✅ Successfully added Emerald RGB effect to text!")
           EOF
 
-      - name: Commit and Push
+      - name: Commit & Push updated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "feat: add emerald RGB effect"
+          commit_message: "feat: update metrics with emerald RGB effect"
           file_pattern: "*.svg"
-          push_options: '--force'
