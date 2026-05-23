@@ -122,4 +122,6 @@ jobs:
 
           git commit -m "chore: update github metrics [skip ci]" || echo "No changes"
 
-          git push
+          git pull --rebase origin dev
+
+          git push origin dev
