@@ -2,6 +2,11 @@
   <p align="left">
     <img src="assets/heading-techin.svg" width="100%" style="max-width:780px; display:block;">
   </p>
+
+<p align="center">
+  <img src="./github-metrics.svg" width="75%" alt="Metrics">
+</p>
+
   <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
@@ -48,12 +53,6 @@
 </p>
 
 ---
-
-### Metrics
-
-<p align="center">
-  <img src="./github-metrics.svg" width="75%" alt="Metrics">
-</p>
 
 ### Education & Career Timeline
 
