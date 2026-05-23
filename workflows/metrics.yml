@@ -2,7 +2,6 @@
   run: |
     python3 << 'EOF'
     from pathlib import Path
-    import re
 
     path = Path("github-metrics.svg")
     svg = path.read_text()
@@ -43,15 +42,12 @@
     </defs>
     '''
 
-    svg = svg.replace("<svg", gradient + "\n<svg", 1)
+    if "<defs>" not in svg:
+        svg = svg.replace("<svg", gradient + "\n<svg", 1)
 
-    svg = re.sub(
-        r'fill="currentColor">Joined GitHub .*?</text>',
-        lambda m: m.group(0).replace(
-            'fill="currentColor"',
-            'fill="url(#joinedGradient)" font-weight="600"'
-        ),
-        svg
+    svg = svg.replace(
+        "Joined GitHub",
+        "<tspan fill='url(#joinedGradient)'>Joined GitHub</tspan>"
     )
 
     path.write_text(svg)
