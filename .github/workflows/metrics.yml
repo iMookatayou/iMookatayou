@@ -15,7 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: lowlighter/metrics@latest
+      - name: Full metrics
+        uses: lowlighter/metrics@latest
         with:
           user: iMookatayou
           token: ${{ secrets.METRICS_TOKEN }}
@@ -27,7 +28,6 @@ jobs:
           plugin_languages: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          output: action
 
       - name: Emerald RGB Injection
         run: |
@@ -44,13 +44,13 @@ jobs:
               if "emeraldRgbGradient" not in svg:
                   gradient = '''<defs><linearGradient id="emeraldRgbGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#065F46" /><stop offset="50%" stop-color="#34D399" /><stop offset="100%" stop-color="#065F46" /><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite" /></linearGradient></defs>'''
                   svg = svg.replace("</svg>", f"{gradient}</svg>")
+
               svg = re.sub(
                   r'(<text[^>]*fill=")[^"]*("[^>]*>\s*Joined\s+GitHub)',
                   r'\1url(#emeraldRgbGradient)\2',
                   svg
               )
 
-              # 3. ค้นหาบรรทัดที่มี 1 year / 1 years
               svg = re.sub(
                   r'(<text[^>]*fill=")[^"]*("[^>]*>\s*[^<]*1\s*years?(\s+ago)?\s*)',
                   r'\1url(#emeraldRgbGradient)\2',
