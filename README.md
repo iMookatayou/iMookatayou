@@ -1,4 +1,8 @@
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
+  <p align="center">
+    <img src="assets/hero-banner.svg" width="100%" style="max-width:900px; border-radius:12px;">
+  </p>
+
   <p align="center">
     <img src="assets/japan.gif" width="100%">
   </p>

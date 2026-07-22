@@ -1,0 +1,34 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      .title {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 34px;
+        fill: #ffffff;
+        filter: drop-shadow(0 0 6px #ff7a59) drop-shadow(0 0 14px #ff3d81);
+      }
+      .subtitle {
+        font-family: 'Press Start 2P', monospace;
+        font-size: 14px;
+        fill: #7fd7ff;
+        filter: drop-shadow(0 0 5px #38bdf8) drop-shadow(0 0 10px #0ea5e9);
+      }
+    </style>
+    <clipPath id="round">
+      <rect width="900" height="360" rx="16" ry="16"/>
+    </clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <image href="japan.gif" x="0" y="0" width="900" height="360" preserveAspectRatio="xMidYMid slice"/>
+    <rect width="900" height="360" fill="url(#fade)"/>
+  </g>
+
+  <text x="50" y="230" class="title">Hello, I'm Techin</text>
+  <text x="50" y="270" class="subtitle">Backend &amp; Full-stack Developer</text>
+</svg>
