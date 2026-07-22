@@ -1,6 +1,6 @@
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
-  <p align="left">
-    <img src="assets/heading-techin.svg" width="100%" style="max-width:780px; display:block;">
+  <p align="center">
+    <img src="assets/japan.gif" width="100%">
   </p>
 
 <p align="center">
