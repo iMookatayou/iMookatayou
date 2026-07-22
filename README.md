@@ -15,19 +15,15 @@
 
 ```js
 const techin = {
-  role: "Full-stack Developer (Apprentice)",
-  base: "Chanthaburi, Thailand",
-  currentlyBuilding: "Hospital asset management system",
-  learning: ["React Router", "Go microservices"],
-  sideProject: "Echoes I Kept — a music journal blog",
-  askMeAbout: ["Laravel", "React", "Payment systems", "Clean DB design"]
+  role: "Full-stack Developer",
+  name: "Techin, Beam",
 };
 ```
 
 </td>
-<td width="45%" align="center">
-<img src="assets/eris.gif" width="100%" style="border-radius:20px; max-width:340px;">
-</td>
+  <p align="center">
+    <img src="assets/eris.gif" width="100%">
+  </p>
 </tr>
 </table>
 
