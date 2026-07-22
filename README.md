@@ -22,7 +22,7 @@ const techin = {
 
 </td>
   <p align="center">
-    <img src="assets/eris.gif" width="100%">
+    <img src="assets/eris3.gif" width="100%">
   </p>
 </tr>
 </table>
