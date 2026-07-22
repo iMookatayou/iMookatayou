@@ -3,36 +3,6 @@
     <img src="assets/japan.gif" width="100%">
   </p>
 
----
-
-<table width="100%">
-<tr>
-<td width="55%" valign="middle">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=20&duration=3000&pause=1000&color=FF7A59&center=false&vCenter=true&width=440&lines=Hello%2C+I'm+Techin;Full-stack+Developer;Building+things+that+scale" alt="Typing SVG" />
-
-<br><br>
-
-```js
-const techin = {
-  role: "Full-stack Developer",
-  name: "Techin, Beam",
-};
-```
-
-</td>
-  <p align="center">
-    <img src="assets/eris3.gif" width="100%">
-  </p>
-</tr>
-</table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-000000?style=flat-square" width="100%" height="2">
-</p>
-
----
-
 <p align="center">
   <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
 </p>
