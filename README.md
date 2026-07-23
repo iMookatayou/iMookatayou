@@ -100,19 +100,18 @@
 </table>
 
 <div align="center">
-  <h3>Techin</h3>
   <p>Full-stack Developer Bangkok, Thailand</p>
 
   <br />
 
   <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white" width="45" />
   </a>
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=vercel&logoColor=white" width="45" />
   </a>
   <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="45" />
   </a>
 
   <br /><br />
@@ -122,7 +121,7 @@
   </div>
 
   <br />
-  
+
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
     <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
   </a>
