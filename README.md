@@ -104,15 +104,17 @@
 
   <br />
 
+  <p align="center">
   <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white" width="45" />
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" style="margin: 0 12px;" />
   </a>
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=vercel&logoColor=white" width="45" />
+    <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" style="margin: 0 12px;" />
   </a>
   <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
-    <img src="https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="45" />
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" style="margin: 0 12px;" />
   </a>
+</p>
 
   <br /><br />
 
