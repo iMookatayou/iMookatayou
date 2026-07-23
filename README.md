@@ -101,30 +101,30 @@
 
 <br />
 
-  <table width="100%" bgcolor="#000000" style="background-color:#000000; border-radius:12px;">
-  <tr><td align="center" style="padding: 40px 20px;">
+<table width="100%" bgcolor="#000000" style="background-color:#000000;">
+<tr><td align="center" style="padding: 50px 0;">
 
-  <h3>Techin</h3>
-  <p>Full-stack Developer, Bangkok Thailand/p>
+<h3>Techin (iMookatayou)</h3>
+<p>Full-stack Developer · Chanthaburi, Thailand</p>
 
-  <br />
+<br />
 
-  <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
+<a href="mailto:jetsribumrungtechin@gmail.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://portfoliotechindev.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
-  <br /><br />
+<br /><br />
 
-  <a href="https://portfoliotechindev.vercel.app">
-    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="320" height="320" style="border-radius: 50%; object-fit: cover;" alt="Techin profile avatar" />
-  </a>
+<a href="https://portfoliotechindev.vercel.app">
+  <img src="assets/eris-greyrat-mushoku-tensei.gif" width="320" height="320" style="border-radius: 50%; object-fit: cover;" alt="Techin profile avatar" />
+</a>
 
-  <br /><br />
+<br /><br />
 
-  <sub>Thanks for stopping by © 2026 Techin</sub>
+<sub>Thanks for stopping by · © 2026 Techin (iMookatayou)</sub>
 
-  </td></tr>
+</td></tr>
 </table>
