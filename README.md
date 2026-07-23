@@ -106,7 +106,7 @@
 <div align="center">
 
   <a href="https://portfoliotechindev.vercel.app">
-    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="120" height="120" style="border-radius: 50%; object-fit: cover;" alt="Techin profile avatar" />
+    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="220" height="220" style="border-radius: 50%; object-fit: cover;" alt="Techin profile avatar" />
   </a>
 
   <h3>Techin (iMookatayou)</h3>
