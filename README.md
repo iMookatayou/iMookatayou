@@ -99,23 +99,40 @@
     </tr>
 </table>
 
-<p align="center">
-  <a href="https://portfoliotechindev.vercel.app">
-    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
-  </a>
-</p>
+<br />
+<hr style="border: 0.5px solid #333;" />
 
 <div align="center">
-  <table width="100%" style="border-collapse: collapse;">
-    <tr>
-      <td align="center" style="background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 16px;">
-        <code style="color: #ff7b72;">const</code> <code style="color: #79c0ff;">developer</code> = <code style="color: #a5d6ff;">"iMookatayou"</code>;
-        <br />
-        <code style="color: #ff7b72;">await</code> <code style="color: #d2a8ff;">collaborate</code>({ 
-          <code style="color: #7ee787;">mail</code>: <a href="mailto:jetsribumrungtechin@gmail.com" style="color: #a5d6ff;">"jetsribumrungtechin@gmail.com"</a>, 
-          <code style="color: #7ee787;">web</code>: <a href="https://portfoliotechindev.vercel.app" style="color: #a5d6ff;">"portfoliotechindev"</a> 
-        });
-      </td>
-    </tr>
-  </table>
+
+  <a href="https://portfoliotechindev.vercel.app">
+    <img src="assets/eris-avatar.png" width="100%" alt="Techin - Full-stack Developer" style="border-radius: 8px;" />
+  </a>
+
+  <br /><br />
+
+  <a href="https://github.com/iMookatayou">
+    <img src="https://github-metrics-beta.vercel.app/api?&id=iMookatayou&layout=compact&theme=github_dark&color_graph=b22222&color_icon=b22222" height="150" alt="Commit activity over the last 365 days" />
+  </a>
+
+  <br /><br />
+
+  <h3>Precision backend. Built to scale.</h3>
+  <p>
+    Thanks for stopping by — <b>Techin (iMookatayou)</b><br />
+    <sub>Chanthaburi, Thailand</sub>
+  </p>
+
+  <br />
+
+  <p>
+    <a href="mailto:jetsribumrungtechin@gmail.com">
+      <img src="https://img.shields.io/badge/Email-jetsribumrungtechin%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" />
+    </a>
+    &nbsp;
+    <a href="https://portfoliotechindev.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-portfoliotechindev.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" height="32" />
+    </a>
+  </p>
+
+  <sub>© Techin (iMookatayou)</sub>
 </div>
