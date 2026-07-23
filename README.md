@@ -99,6 +99,8 @@
     </tr>
 </table>
 
+---
+
 <div align="center">
   <p>Full-stack Developer, Bangkok Thailand</p>
   <br />
