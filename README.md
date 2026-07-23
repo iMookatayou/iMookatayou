@@ -106,11 +106,6 @@
   <a href="https://portfoliotechindev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364"><img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=0A66C2" /></a>
   <br /><br />
-  <sub>Thanks for stopping by © 2026 Techin</sub>
 </div>
 <br />
 <a href="https://portfoliotechindev.vercel.app"><img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading" /></a>
-<br />
-<a href="https://portfoliotechindev.vercel.app">
-  <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
-</a>
