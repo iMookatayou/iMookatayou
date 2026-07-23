@@ -100,39 +100,27 @@
 </table>
 
 <br />
-<hr style="border: 0.5px solid #333;" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:333333&height=100&section=footer" />
 
-<div align="center">
+  <div align="center">
 
   <a href="https://portfoliotechindev.vercel.app">
-    <img src="assets/eris-avatar.png" width="100%" alt="Techin - Full-stack Developer" style="border-radius: 8px;" />
+    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="120" style="border-radius: 50%;" alt="Techin profile avatar" />
   </a>
 
-  <br /><br />
-
-  <a href="https://github.com/iMookatayou">
-    <img src="https://github-metrics-beta.vercel.app/api?&id=iMookatayou&layout=compact&theme=github_dark&color_graph=b22222&color_icon=b22222" height="150" alt="Commit activity over the last 365 days" />
-  </a>
-
-  <br /><br />
-
-  <h3>Precision backend. Built to scale.</h3>
-  <p>
-    Thanks for stopping by — <b>Techin (iMookatayou)</b><br />
-    <sub>Chanthaburi, Thailand</sub>
-  </p>
+  <h3>Techin (iMookatayou)</h3>
+  <p>Full-stack Developer · Chanthaburi, Thailand</p>
 
   <br />
 
-  <p>
-    <a href="mailto:jetsribumrungtechin@gmail.com">
-      <img src="https://img.shields.io/badge/Email-jetsribumrungtechin%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" />
-    </a>
-    &nbsp;
-    <a href="https://portfoliotechindev.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-portfoliotechindev.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" height="32" />
-    </a>
-  </p>
+  <a href="mailto:jetsribumrungtechin@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://portfoliotechindev.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
 
-  <sub>© Techin (iMookatayou)</sub>
+  <br /><br />
+
+  <sub>Thanks for stopping by Techin © 2026</sub>
 </div>
