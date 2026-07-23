@@ -100,7 +100,7 @@
 </table>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=600&height=40&lines=Full-stack+Developer%2C+Bangkok+Thailand" alt="Full-stack Developer, Bangkok Thailand" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=750&height=40&lines=Full-stack+Developer%2C+Bangkok+Thailand" alt="Full-stack Developer, Bangkok Thailand" />
   <br />
   <a href="mailto:jetsribumrungtechin@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a1a?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
   <a href="https://portfoliotechindev.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=vercel&logoColor=white" /></a>
