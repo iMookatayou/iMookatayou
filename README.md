@@ -100,15 +100,7 @@
 </table>
 
 <div align="center">
-  <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="assets/eris-thank-you.gif" width="498" height="323" style="border-radius:12px;" alt="Thank you for reading">
-  </a>
-
-  </div>
-
-  <br />
-  <div align="center">
-
+  <h3>Techin</h3>
   <p>Full-stack Developer Bangkok, Thailand</p>
 
   <br />
@@ -126,4 +118,13 @@
   <br /><br />
 
   <sub>Thanks for stopping by © 2026 Techin</sub>
-</div>
+
+  </div>
+
+  <br />
+
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:1a1a1a&height=100&section=footer" />
+
+  <a href="https://portfoliotechindev.vercel.app" target="_blank">
+    <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
+  </a>
