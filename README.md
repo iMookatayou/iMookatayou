@@ -113,7 +113,7 @@
     <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
+  <a href="https://linkedin.com/in/https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
     <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" />
   </a>
 </p>
