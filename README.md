@@ -106,11 +106,9 @@
   <a href="mailto:jetsribumrungtechin@gmail.com">
     <img src="https://img.shields.io/badge/Email-1a1a1a?style=flat-square&logo=gmail&logoColor=EA4335" />
   </a>
-  &nbsp;
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=flat-square&logo=googlechrome&logoColor=white" />
   </a>
-  &nbsp;
   <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=flat-square&logo=linkedin&logoColor=0A66C2" />
   </a>
