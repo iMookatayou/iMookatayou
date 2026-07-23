@@ -100,14 +100,14 @@
 </table>
 
 <br />
-<p align="center">
-  <a href="https://portfoliotechindev.vercel.app">
-    <img src="assets/eris-greyrat-mushoku-tensei" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
-  </a>
-</p>
+  <p align="center">
+    <a href="https://portfoliotechindev.vercel.app">
+      <img src="assets/eris-greyrat-mushoku-tensei.gif" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
+    </a>
+  </p>
 
-<p align="center">
-  <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b22222,100:0d1117&height=150&section=footer&text=GET%20IN%20TOUCH%20%E2%80%A2%20jetsribumrungtechin@gmail.com&fontSize=18&fontColor=ffffff&fontAlignY=70" width="100%" />
-  </a>
-</p>
+  <p align="center">
+    <a href="mailto:jetsribumrungtechin@gmail.com">
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:0d1117&height=160&section=footer&text=%3E_ CONNECT %26 COLLABORATE • jetsribumrungtechin%40gmail.com&fontSize=16&fontColor=ffffff&fontAlignY=68&font=Fira+Code" width="100%" />
+    </a>
+  </p>
