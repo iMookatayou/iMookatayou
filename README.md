@@ -122,9 +122,7 @@
   </div>
 
   <br />
-
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:1a1a1a&height=100&section=footer" />
-
+  
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
     <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
   </a>
