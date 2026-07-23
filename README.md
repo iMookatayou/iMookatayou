@@ -1,6 +1,6 @@
 <div style="overflow-x:auto; -webkit-overflow-scrolling:touch;">
   <p align="center">
-    <img src="assets/japan.gif" width="100%">
+    <img src="assets/Adam-center-typing.gif" width="100%">
   </p>
 
 <p align="center">
