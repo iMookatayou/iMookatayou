@@ -99,7 +99,15 @@
     </tr>
 </table>
 
-<sub>
-Webport: <a href="https://portfoliotechindev.vercel.app">portfoliotechindev</a> ·  
-Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
-</sub>
+<br />
+<p align="center">
+  <a href="https://portfoliotechindev.vercel.app">
+    <img src="assets/eris-greyrat-mushoku-tensei" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="mailto:jetsribumrungtechin@gmail.com">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b22222,100:0d1117&height=150&section=footer&text=GET%20IN%20TOUCH%20%E2%80%A2%20jetsribumrungtechin@gmail.com&fontSize=18&fontColor=ffffff&fontAlignY=70" width="100%" />
+  </a>
+</p>
