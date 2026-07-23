@@ -99,8 +99,6 @@
     </tr>
 </table>
 
----
-
 <div align="center">
   <p>Full-stack Developer, Bangkok Thailand</p>
   <br />
@@ -114,7 +112,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
   </a>
   <br /><br />
-  <sub>Thanks for stopping by © 2026 Techin</sub>
 </div>
 <br />
 <a href="https://portfoliotechindev.vercel.app">
