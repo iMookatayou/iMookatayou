@@ -99,25 +99,21 @@
     </tr>
 </table>
 
-<br />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:1a1a1a&height=100&section=header" />
+<div align="center">
+  <a href="https://portfoliotechindev.vercel.app" target="_blank">
+    <img src="assets/eris-thank-you.gif" width="498" height="323" style="border-radius:12px;" alt="Thank you for reading">
+  </a>
+
+  </div>
+
+  <br />
+
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:1a1a1a&height=100&section=footer" />
 
   <div align="center">
 
-  <a href="#">
-    <img src="https://img.shields.io/badge/-000000?style=flat-square" width="60%" height="2">
-  </a>
-
-  <br /><br />
-
-  <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="assets/eris-thank-you.gif" width="380" style="border-radius:12px;" alt="Thank you for reading">
-  </a>
-
-  <br /><br />
-
-  <h3>Techin (iMookatayou)</h3>
-  <p>Full-stack Developer · Chanthaburi, Thailand</p>
+  <h3>Techin</h3>
+  <p>Full-stack Developer Bangkok, Thailand</p>
 
   <br />
 
@@ -127,26 +123,11 @@
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="https://github.com/iMookatayou" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
   <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
   <br /><br />
 
-  <img src="https://komarev.com/ghpvc/?username=iMookatayou&style=flat-square&color=8B0000&label=Profile+Views" alt="Profile views" />
-
-  <br /><br />
-
-  <sub>Thanks for stopping by · © 2026 Techin (iMookatayou)</sub>
-
-  <br /><br />
-
-  <a href="#readme-top">
-    <img src="https://img.shields.io/badge/⬆-Back%20to%20top-1a1a1a?style=flat-square" />
-  </a>
+  <sub>Thanks for stopping by © 2026 Techin</sub>
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:1a1a1a&height=100&section=footer" />
