@@ -99,15 +99,23 @@
     </tr>
 </table>
 
-<br />
-  <p align="center">
-    <a href="https://portfoliotechindev.vercel.app">
-      <img src="assets/eris-greyrat-mushoku-tensei.gif" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
-    </a>
-  </p>
+<p align="center">
+  <a href="https://portfoliotechindev.vercel.app">
+    <img src="assets/eris-greyrat-mushoku-tensei.gif" width="100%" style="border-radius: 8px;" alt="Eris Banner" />
+  </a>
+</p>
 
-  <p align="center">
-    <a href="mailto:jetsribumrungtechin@gmail.com">
-      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:0d1117&height=160&section=footer&text=%3E_ CONNECT %26 COLLABORATE • jetsribumrungtechin%40gmail.com&fontSize=16&fontColor=ffffff&fontAlignY=68&font=Fira+Code" width="100%" />
-    </a>
-  </p>
+<div align="center">
+  <table width="100%" style="border-collapse: collapse;">
+    <tr>
+      <td align="center" style="background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 16px;">
+        <code style="color: #ff7b72;">const</code> <code style="color: #79c0ff;">developer</code> = <code style="color: #a5d6ff;">"iMookatayou"</code>;
+        <br />
+        <code style="color: #ff7b72;">await</code> <code style="color: #d2a8ff;">collaborate</code>({ 
+          <code style="color: #7ee787;">mail</code>: <a href="mailto:jetsribumrungtechin@gmail.com" style="color: #a5d6ff;">"jetsribumrungtechin@gmail.com"</a>, 
+          <code style="color: #7ee787;">web</code>: <a href="https://portfoliotechindev.vercel.app" style="color: #a5d6ff;">"portfoliotechindev"</a> 
+        });
+      </td>
+    </tr>
+  </table>
+</div>
