@@ -103,21 +103,19 @@
   <p>Full-stack Developer, Bangkok Thailand</p>
   <br />
 
-  <p align="center">
-    <a href="mailto:jetsribumrungtechin@gmail.com">
-      <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://portfoliotechindev.vercel.app" target="_blank">
-      <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" />
-    </a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
-      <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" />
-    </a>
-  </p>
+  <a href="mailto:jetsribumrungtechin@gmail.com">
+    <img src="https://img.shields.io/badge/Email-1a1a1a?style=flat-square&logo=gmail&logoColor=EA4335" />
+  </a>
+  &nbsp;
+  <a href="https://portfoliotechindev.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=flat-square&logo=googlechrome&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=flat-square&logo=linkedin&logoColor=0A66C2" />
+  </a>
 
-  <br />
+  <br /><br />
   <sub>Thanks for stopping by © 2026 Techin</sub>
 </div>
 
