@@ -99,7 +99,22 @@
     </tr>
 </table>
 
-<sub>
-Webport: <a href="https://portfoliotechindev.vercel.app">portfoliotechindev</a> ·  
-Email: <a href="mailto:jetsribumrungtechin@gmail.com">jetsribumrungtechin@gmail.com</a>
-</sub>
+<div align="center">
+  <p>Full-stack Developer, Bangkok Thailand</p>
+  <br />
+  <a href="mailto:jetsribumrungtechin@gmail.com" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Email-1a1a1a?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+  </a>
+  <a href="https://portfoliotechindev.vercel.app" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Portfolio-1a1a1a?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+  </a>
+  <br /><br />
+  <sub>Thanks for stopping by © 2026 Techin</sub>
+</div>
+<br />
+<a href="https://portfoliotechindev.vercel.app" target="_blank">
+  <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
+</a>
