@@ -101,8 +101,9 @@
 
 <br />
 
-<table width="100%" bgcolor="#000000" style="background-color:#000000;">
-<tr><td align="center" style="padding: 50px 0;">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,100:1a1a1a&height=100&section=footer" />
+
+<div align="center">
 
 <h3>Techin (iMookatayou)</h3>
 <p>Full-stack Developer · Chanthaburi, Thailand</p>
@@ -119,12 +120,11 @@
 <br /><br />
 
 <a href="https://portfoliotechindev.vercel.app">
-  <img src="assets/eris-greyrat-mushoku-tensei.gif" width="320" height="320" style="border-radius: 50%; object-fit: cover;" alt="Techin profile avatar" />
+  <img src="assets/eris-greyrat-mushoku-tensei.gif" width="320" height="320" alt="Techin profile avatar" />
 </a>
 
 <br /><br />
 
 <sub>Thanks for stopping by · © 2026 Techin (iMookatayou)</sub>
 
-</td></tr>
-</table>
+</div>
