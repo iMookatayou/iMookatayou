@@ -100,31 +100,29 @@
 </table>
 
 <div align="center">
-  <p>Full-stack Developer Bangkok, Thailand</p>
-
+  <p>Full-stack Developer, Bangkok Thailand</p>
   <br />
 
   <p align="center">
-  <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" />
-  </a>
-</p>
-  <br /><br />
-
-  <sub>Thanks for stopping by © 2026 Techin</sub>
-
-  </div>
+    <a href="mailto:jetsribumrungtechin@gmail.com">
+      <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" />
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://portfoliotechindev.vercel.app" target="_blank">
+      <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" />
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/techin-jetsribumrung-9a4069364" target="_blank">
+      <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" />
+    </a>
+  </p>
 
   <br />
+  <sub>Thanks for stopping by © 2026 Techin</sub>
+</div>
 
-  <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
-  </a>
+<br />
+
+<a href="https://portfoliotechindev.vercel.app" target="_blank">
+  <img width="100%" src="assets/eris-thank-you.gif" alt="Thank you for reading">
+</a>
