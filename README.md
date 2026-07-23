@@ -106,16 +106,17 @@
 
   <p align="center">
   <a href="mailto:jetsribumrungtechin@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" style="margin: 0 12px;" />
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" />
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://portfoliotechindev.vercel.app" target="_blank">
-    <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" style="margin: 0 12px;" />
+    <img src="https://cdn.simpleicons.org/vercel/FFFFFF" width="36" height="36" />
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" style="margin: 0 12px;" />
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" />
   </a>
 </p>
-
   <br /><br />
 
   <sub>Thanks for stopping by © 2026 Techin</sub>
