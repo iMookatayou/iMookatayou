@@ -107,4 +107,4 @@
   <br /><br />
 </div>
 <br />
-<a href="https://portfoliotechindev.vercel.app" target="_blank"><img width="100%" src="assets/YUlLR6I.gif" alt="Thank you for reading" /></a>
+<a href="https://portfoliotechindev.vercel.app" target="_blank"><img width="100%" src="assets/black-white.gif" alt="Thank you for reading" /></a>
