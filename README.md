@@ -54,7 +54,7 @@
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=750&height=40&lines=Full-stack+Developer%2C+Bangkok+Thailand" alt="Education & Career Timeline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=750&height=40&lines=Education+Developer%2C+&+Career+Timeline" alt="Education & Career Timeline" />
 </div>
 
 <table align="center">
