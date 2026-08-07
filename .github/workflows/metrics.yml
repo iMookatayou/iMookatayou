@@ -18,7 +18,7 @@ jobs:
       - name: Full metrics
         uses: lowlighter/metrics@latest
         with:
-          user: iMookatayou
+          user: beamMiter
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
