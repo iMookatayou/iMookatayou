@@ -53,7 +53,9 @@
 
 ---
 
-### Education & Career Timeline
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&amp;size=16&amp;duration=1&amp;pause=100000&amp;color=FFFFFF&amp;center=true&amp;vCenter=true&amp;width=750&amp;height=40&amp;lines=Education+%26+Career+Timeline" alt="Education & Career Timeline" />
+</div>
 
 <table align="center">
   <tr>
