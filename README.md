@@ -12,13 +12,25 @@
       <td valign="top" width="68%">
         <h3>Tech Stack</h3>
         <p>
-          <img src="https://skillicons.dev/icons?i=ts,go,php,dart,java&theme=dark" height="46">
+          <img src="https://cdn.simpleicons.org/typescript/3178C6" height="30">
+          <img src="https://cdn.simpleicons.org/go/00ADD8" height="30">
+          <img src="https://cdn.simpleicons.org/php/777BB4" height="30">
+          <img src="https://cdn.simpleicons.org/dart/0175C2" height="30">
+          <img src="https://cdn.simpleicons.org/openjdk/FFFFFF" height="30">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,flutter&theme=dark" height="44">
+          <img src="https://cdn.simpleicons.org/react/61DAFB" height="30">
+          <img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" height="30">
+          <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" height="30">
+          <img src="https://cdn.simpleicons.org/vite/B73BFE" height="30">
+          <img src="https://cdn.simpleicons.org/flutter/02569B" height="30">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=laravel,spring,mysql,postgres,mongodb&theme=dark" height="44">
+          <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="30">
+          <img src="https://cdn.simpleicons.org/springboot/6DB33F" height="30">
+          <img src="https://cdn.simpleicons.org/mysql/4479A1" height="30">
+          <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="30">
+          <img src="https://cdn.simpleicons.org/mongodb/47A248" height="30">
         </p>
         <p>
           <em>Main stack (daily use):</em>
