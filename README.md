@@ -7,11 +7,15 @@
   <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
 </p>
 
+<p align="center">
+  <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
+</p>
+
 <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
-        <div align="left">
-          <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=false&vCenter=true&width=300&height=40&lines=Tech+Stack" alt="Tech Stack" />
+        <div align="center">
+          <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=300&height=40&lines=Tech+Stack" alt="Tech Stack" />
         </div>
         <p align="center">
           <img src="https://cdn.simpleicons.org/typescript/3178C6" height="40">&nbsp;&nbsp;
