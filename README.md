@@ -7,10 +7,6 @@
   <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
 </p>
 
-<p align="center">
-  <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
-</p>
-
 <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
@@ -33,7 +29,7 @@
         </p>
         <p align="center">
           <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="40">&nbsp;&nbsp;
-          <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" height="28">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/springboot/6DB33F" height="40">&nbsp;&nbsp;
           <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40">&nbsp;&nbsp;
           <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="40">&nbsp;&nbsp;
           <img src="https://cdn.simpleicons.org/mongodb/47A248" height="40">
