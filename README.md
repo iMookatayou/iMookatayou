@@ -12,18 +12,19 @@
       <td valign="top" width="68%">
         <h3>Tech Stack</h3>
         <p>
-          <img src="https://skillicons.dev/icons?i=ts,go,php,dart&theme=dark" height="46">
+          <img src="https://skillicons.dev/icons?i=ts,go,php,dart,java&theme=dark" height="46">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,vite,flutter&theme=dark" height="44">
+          <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,flutter&theme=dark" height="44">
         </p>
         <p>
-          <img src="https://skillicons.dev/icons?i=laravel,mysql,mongodb&theme=dark" height="44">
+          <img src="https://skillicons.dev/icons?i=laravel,spring,mysql,postgres,mongodb&theme=dark" height="44">
         </p>
         <p>
           <em>Main stack (daily use):</em>
-          <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>,
-          <b>React</b>, <b>Next.js</b>, <b>Laravel</b>, <b>Vite</b>, <b>MySQL</b>, <b>MongoDB</b>.
+          <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>, <b>Java</b>,
+          <b>React</b>, <b>Next.js</b>, <b>Vue.js</b>, <b>Laravel</b>, <b>Spring Boot</b>,
+          <b>Vite</b>, <b>MySQL</b>, <b>PostgreSQL</b>, <b>MongoDB</b>.
         </p>
         <p style="margin-top:8px;">
           <em>Focus:</em>
