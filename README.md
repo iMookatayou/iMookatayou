@@ -10,28 +10,30 @@
   <table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
-        <h3>Tech Stack</h3>
-        <p>
+        <div align="left">
+          <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=false&vCenter=true&width=300&height=40&lines=Tech+Stack" alt="Tech Stack" />
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
           <img src="https://cdn.simpleicons.org/typescript/3178C6" height="30">
           <img src="https://cdn.simpleicons.org/go/00ADD8" height="30">
           <img src="https://cdn.simpleicons.org/php/777BB4" height="30">
           <img src="https://cdn.simpleicons.org/dart/0175C2" height="30">
           <img src="https://cdn.simpleicons.org/openjdk/FFFFFF" height="30">
-        </p>
-        <p>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
           <img src="https://cdn.simpleicons.org/react/61DAFB" height="30">
           <img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" height="30">
           <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" height="30">
           <img src="https://cdn.simpleicons.org/vite/B73BFE" height="30">
           <img src="https://cdn.simpleicons.org/flutter/02569B" height="30">
-        </p>
-        <p>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
           <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="30">
           <img src="https://cdn.simpleicons.org/springboot/6DB33F" height="30">
           <img src="https://cdn.simpleicons.org/mysql/4479A1" height="30">
           <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="30">
           <img src="https://cdn.simpleicons.org/mongodb/47A248" height="30">
-        </p>
+        </div>
         <p>
           <em>Main stack (daily use):</em>
           <b>TypeScript</b>, <b>Go (Golang)</b>, <b>PHP</b>, <b>Java</b>,
