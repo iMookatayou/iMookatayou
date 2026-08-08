@@ -7,18 +7,32 @@
   <img src="./github-metrics.svg?v=20" width="75%" alt="Metrics">
 </p>
 
-  <table width="100%" cellspacing="0" cellpadding="0">
+<table width="100%" cellspacing="0" cellpadding="0">
     <tr>
       <td valign="top" width="68%">
-        <h3>Tech Stack</h3>
-        <p>
-          <img src="https://skillicons.dev/icons?i=ts,go,php,dart,java&theme=dark" height="46">
+        <div align="center">
+          <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=1&pause=100000&color=FFFFFF&center=true&vCenter=true&width=300&height=40&lines=Tech+Stack" alt="Tech Stack" />
+        </div>
+        <p align="center">
+          <img src="https://cdn.simpleicons.org/typescript/3178C6" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/go/00ADD8" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/php/777BB4" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/dart/0175C2" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40">
         </p>
-        <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,flutter&theme=dark" height="44">
+        <p align="center">
+          <img src="https://cdn.simpleicons.org/react/61DAFB" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/vuedotjs/4FC08D" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/vite/B73BFE" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/flutter/02569B" height="40">
         </p>
-        <p>
-          <img src="https://skillicons.dev/icons?i=laravel,spring,mysql,postgres,mongodb&theme=dark" height="44">
+        <p align="center">
+          <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/springboot/6DB33F" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="40">&nbsp;&nbsp;
+          <img src="https://cdn.simpleicons.org/mongodb/47A248" height="40">
         </p>
         <p>
           <em>Main stack (daily use):</em>
