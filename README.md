@@ -48,7 +48,7 @@
       </td>
       <td valign="top" width="32%" align="right">
         <img src="assets/book.gif" width="240" style="border-radius:12px;"><br><br>
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=beamMiter&layout=compact&langs_count=6&theme=transparent&hide_border=true"
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=beamMiter&layout=compact&langs_count=6&theme=transparent&hide_border=true&v=2"
           width="240"
         >
       </td>
